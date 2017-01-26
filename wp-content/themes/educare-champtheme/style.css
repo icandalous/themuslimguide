@@ -190,7 +190,7 @@ input[type="submit"] {
 */
 
 
-.header-bottom-area {/* background-image: url(assets/img/header-pattern.png); */position: absolute;top: 0;z-index: 999;float: left;left: 0;}
+.header-bottom-area {/* background-image: url(assets/img/header-pattern.png); */position: absolute;top: 0;z-index: 999;float: left;left: 0;width: 100%;}
 
 
 .header-top-area {

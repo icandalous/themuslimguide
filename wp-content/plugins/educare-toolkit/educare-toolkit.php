@@ -184,6 +184,7 @@ require_once( EDUC_ACC_PATH . 'vc-addons/vc-blocks-load.php' );
 // Theme shortcodes
 require_once( EDUC_ACC_PATH . 'theme-shortcodes/slides-shortcode.php' );
 require_once( EDUC_ACC_PATH . 'theme-shortcodes/service-box-shortcode.php' );
+require_once( EDUC_ACC_PATH . 'theme-shortcodes/presentation-box-shortcode.php' );
 require_once( EDUC_ACC_PATH . 'theme-shortcodes/section-title-shortcode.php' );
 require_once( EDUC_ACC_PATH . 'theme-shortcodes/courses-shortcode.php' );
 require_once( EDUC_ACC_PATH . 'theme-shortcodes/notices-shortcode.php' );

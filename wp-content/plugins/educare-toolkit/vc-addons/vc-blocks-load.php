@@ -21,6 +21,7 @@ class educareVCExtendAddonClass {
         // visual composer addons.
         include EDUC_ACC_PATH . '/vc-addons/vc-slides.php';
         include EDUC_ACC_PATH . '/vc-addons/vc-service-box.php';
+		include EDUC_ACC_PATH . '/vc-addons/vc-presentation-box.php';
         include EDUC_ACC_PATH . '/vc-addons/vc-section-title.php';
         include EDUC_ACC_PATH . '/vc-addons/vc-courses.php';
         include EDUC_ACC_PATH . '/vc-addons/vc-notices.php';

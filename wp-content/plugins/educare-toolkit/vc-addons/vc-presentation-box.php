@@ -15,7 +15,7 @@ vc_map(
                 "param_name" => "title",
                 "description" => esc_html__( "Type your section title", "educare-toolkit" )
             ),
-            array(
+            /*array(
                 "type" => "attach_image",
                 "heading" => esc_html__( "Background", "educare-toolkit" ),
                 "param_name" => "bg",
@@ -51,6 +51,18 @@ vc_map(
                     "value" => array("2"),
                 ),
                 "description" => esc_html__( "Upload your section box icon here", "educare-toolkit" )
+            ),*/
+			 array(
+                "type" => "dropdown",
+                "heading" => esc_html__( "Type section", "educare-toolkit" ),
+                "param_name" => "type",
+				"std" => esc_html__( "1", "educare-toolkit" ),
+                "value" => array(
+                    'coran' => '1',
+                    'islam' => '2',
+					'prefession' => '3'
+                ),
+                "description" => esc_html__( "Choisir le type de section", "educare-toolkit" )
             ),
             array(
                 "type" => "textarea",

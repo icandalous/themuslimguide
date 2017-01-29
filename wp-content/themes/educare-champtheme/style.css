@@ -32,11 +32,13 @@ Text Domain: educare-champtheme
 
 body {
   color: #666;
-  font-family: "Roboto",serif;
+  /*font-family: "Roboto",serif;*/
+  font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 27px;
 }
+
 #page.site.educare-boxed-layout {
     background: #fff none repeat scroll 0 0;
     box-shadow: 0 0 3px #999;
@@ -190,7 +192,16 @@ input[type="submit"] {
 */
 
 
-.header-bottom-area {/* background-image: url(assets/img/header-pattern.png); */position: absolute;top: 0;z-index: 999;float: left;left: 0;width: 100%;}
+.header-bottom-area {
+	/* background-image: url(assets/img/header-pattern.png); */
+	position: absolute;
+	top: 0;
+	z-index: 999;
+	float: left;
+	left: 0;
+	width: 100%;
+	margin-top: 10px;
+}
 
 
 .header-top-area {
@@ -322,9 +333,9 @@ input[type="submit"] {
 .menu_wrap ul li a {
     display: block;
     font-weight: 500;
-    padding: 28px 20px;
+    padding: 9px 20px;
     position: relative;
-    text-transform: lowercase;
+    /*text-transform: lowercase;*/
 }
 .menu_wrap > ul > li > a:hover,
 .menu_wrap > ul > li.current_page_item > a {

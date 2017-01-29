@@ -19,7 +19,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 define( 'EDUC_ACC_URL', WP_PLUGIN_URL . '/' . plugin_basename( dirname( __FILE__ ) ) . '/' );
 define( 'EDUC_ACC_PATH', plugin_dir_path( __FILE__ ) );
 
-
+//type of presentation section
+function get_type_section($typeID){
+	$defaultID = 1;
+	$type_list = array('coran', 'islam', 'profession');
+	if(is_numeric($typeID) && $typeID>0 && $typeID<=count($type_list)){
+		return $type_list[$typeID-1];
+	}
+	return $type_list[$defaultID];
+}
 // Dynamic page list on VC addons
 function educare_toolkit_get_page_as_list( ) {
 

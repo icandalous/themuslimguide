@@ -13,8 +13,9 @@ set dbname=themuslimguide
 set mysql="C:\developpement\wamp64\bin\mysql\mysql5.7.9\bin\mysql.exe"
 
 :: Error log path
-set importsource=C:\developpement\test\themuslimguide.test.sql
+set importsource=C:\developpement\wamp64\www\themuslimguide\db\themuslimguide.sql
 
 
 :: Execution de la commande d'import.
 %mysql% --user=%dbuser% --password=%dbpass% %dbname% < "%importsource%"
+

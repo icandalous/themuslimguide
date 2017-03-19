@@ -1,0 +1,1124 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-23 02:47+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: 404.php:16
+msgid "Error page"
+msgstr ""
+
+#: 404.php:21 search.php:23 single.php:35 index.php:28
+msgid "Home"
+msgstr ""
+
+#: 404.php:21
+msgid "error page"
+msgstr ""
+
+#: 404.php:33
+msgid "404"
+msgstr ""
+
+#: 404.php:34
+msgid "Sorry...."
+msgstr ""
+
+#: 404.php:34
+msgid " This page is not found."
+msgstr ""
+
+#: 404.php:35
+msgid "The page you are looking for can't be found."
+msgstr ""
+
+#: 404.php:36
+msgid "Back to home"
+msgstr ""
+
+#: search.php:18
+msgid "Search Result"
+msgstr ""
+
+#: search.php:23
+msgid "Search result for"
+msgstr ""
+
+#: comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:40 comments.php:61
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:43 comments.php:64
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:44 comments.php:65
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:78
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:47
+msgid "Primary"
+msgstr ""
+
+#: functions.php:90
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:92
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:99
+msgid "Footer widgets"
+msgstr ""
+
+#: functions.php:101
+msgid "Add footer widgets here."
+msgstr ""
+
+#. If there are characters in your language that are not supported
+#. by chosen font(s), translate this to 'off'. Do not translate into your own language.
+#. If there are characters in your language that are not supported
+#. by chosen font(s), translate this to 'off'. Do not translate into your own language.
+#: functions.php:162 inc/theme-style.php:10 inc/theme-style.php:24
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:242
+msgid "Demo Import 1"
+msgstr ""
+
+#: functions.php:247
+msgid ""
+"After import demo, just set static homepage from settings > reading, check "
+"widgets & menus. You will be done! :-)"
+msgstr ""
+
+#: single.php:19
+msgid "Course details"
+msgstr ""
+
+#: single.php:21
+msgid "Event details"
+msgstr ""
+
+#: single.php:23 index.php:23 index.php:28
+msgid "Blog"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:20
+msgid "Theme Options"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:25
+msgid "Educare theme options - by champtheme"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:40
+msgid "Header area"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:46
+msgid "Enable header top"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:48
+msgid "If you want to enable header top, select on."
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:53
+msgid "Header top left content type"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:55
+msgid "Select header top left content type."
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:57
+msgid "Phone number & email"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:58 libs/cs-framework-overwrites.php:93
+msgid "Custom"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:65
+msgid "Header phone number"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:66
+msgid ""
+"Type header phone number. Leave blank if you do not want to show phone "
+"number."
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:67
+msgid "(000) 111-222-333"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:73
+msgid "Header email address"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:74
+msgid ""
+"Type header email address. Leave blank if you do not want to show email "
+"address."
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:81
+msgid "Header top left content"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:82
+msgid "Add your own header top left content."
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:88
+msgid "Header top right content type"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:90
+msgid "Select header top right content type."
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:92 libs/cs-framework-overwrites.php:100
+msgid "Social links"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:101
+msgid ""
+"Add social links, it will show on header top right & footer, by using "
+"shortcode."
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:102
+msgid "Add new social link"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:103
+msgid "Add New link"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:108
+msgid "Icon code"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:113 libs/cs-framework-overwrites.php:712
+#: libs/cs-framework-overwrites.php:783
+msgid "Link"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:121
+msgid "Header top right content"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:122
+msgid "Type your own header top right content."
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:128
+msgid "Enable header right button?"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:130
+msgid "If you want to enable header right button, select on."
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:136
+msgid "Header right button text"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:137
+msgid "Apply Now"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:138
+msgid "Type header right button text"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:144
+msgid "Header right button link to"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:146
+msgid "A specific page"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:147 libs/cs-framework-overwrites.php:698
+#: libs/cs-framework-overwrites.php:770
+msgid "External link"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:150
+msgid "Header right button link type"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:156 libs/cs-framework-overwrites.php:164
+msgid "Header right button link"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:158
+msgid "Select header right button link to page."
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:165
+msgid "Type header right button external"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:173
+msgid "Logo and favicon"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:179
+msgid "Favicon"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:180
+msgid "Upload favicon image. Favicon image should be square sized image."
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:185
+msgid "Enable text logo?"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:186
+msgid "If you want to enable text logo, select on."
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:192
+msgid "Logo"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:193
+msgid "Upload site logo."
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:199
+msgid "White color logo"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:200
+msgid "White color logo will show on footer widgets by using shortcode."
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:206
+msgid "Educare"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:207
+msgid "Logo text"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:208
+msgid "Type logo text here."
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:216
+msgid "Typography"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:222
+msgid "Body font"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:223
+msgid "Select body google font & font weight."
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:233
+msgid "Body font size"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:234
+msgid "Select body font size."
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:240
+msgid "Body font line height"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:241
+msgid "Select body font line height."
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:247
+msgid "Headding font"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:253
+msgid "Select headding google font & font weight."
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:260
+msgid "Styling"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:267
+msgid "Proloader"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:268
+msgid "If you want to enable preloader, select on."
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:274
+msgid "Enable boxedd layout"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:275
+msgid "If you want to enable boxed layout, select on."
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:280
+msgid "Body background image"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:281
+msgid ""
+"Upload body background image, If you upload a bigger image, do not forget to "
+"select background repeat as cover."
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:287
+msgid "Body background repeat"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:288
+msgid "Select background behabour"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:290
+msgid "Repeat"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:291
+msgid "No Repeat"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:292
+msgid "Cover"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:299
+msgid "Body background attachment"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:300
+msgid "Select background attachment."
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:302
+msgid "Scroll"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:303
+msgid "Fixed"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:310
+msgid "Choose theme primary color."
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:311
+msgid "Theme color"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:319
+msgid "Blog Settings"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:325
+msgid "Blog breadcroump image"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:326
+msgid "Upload blog index pages breadcroump image"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:332
+msgid "Display post by?"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:333
+msgid ""
+"If you want to show posted by name on blog index page and single blog, "
+"select on"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:339
+msgid "Display post date?"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:340
+msgid ""
+"If you want to show blog post date on blog index page and single blog, "
+"select on"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:346
+msgid "Display comment count?"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:347
+msgid "If you want to show comment count on blog index page, select on"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:353
+msgid "Display posted in categories?"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:354
+msgid ""
+"If you want to show blog category on blog index page and single blog, select "
+"on"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:360
+msgid "Display posted in tags?"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:361
+msgid ""
+"If you want to show blog tags on blog index page and single blog, select on"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:367
+msgid "Enable next previous link on single post?"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:368
+msgid "If you want to show next previous links on single blog, select on"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:375
+msgid "Footer Settings"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:381
+msgid "Footer background color"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:383
+msgid "Select footer area background color"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:388
+msgid "Footer text color"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:390
+msgid "Select footer area text color"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:395
+msgid "Copyright area left text"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:396
+msgid "Type footer copyright area left text"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:401
+msgid "Copyright area right text"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:402
+msgid "Type footer copyright area right text"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:409
+msgid "Google map"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:415
+msgid "Google map API key"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:416
+msgid ""
+"Paste your google map API key here. You can get it on google developer "
+"console."
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:423
+msgid "Backups"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:428
+msgid "Backup"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:444
+msgid "Page Options"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:455
+msgid "Enable page title bar?"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:465
+msgid "Event Options"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:514
+msgid "Month"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:516 libs/cs-framework-overwrites.php:516
+msgid "January"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:517 libs/cs-framework-overwrites.php:517
+msgid "February"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:518 libs/cs-framework-overwrites.php:518
+msgid "March"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:519 libs/cs-framework-overwrites.php:519
+msgid "April"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:520 libs/cs-framework-overwrites.php:520
+msgid "May"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:521 libs/cs-framework-overwrites.php:521
+msgid "June"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:522 libs/cs-framework-overwrites.php:522
+msgid "July"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:523 libs/cs-framework-overwrites.php:523
+msgid "August"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:524 libs/cs-framework-overwrites.php:524
+msgid "September"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:525 libs/cs-framework-overwrites.php:525
+msgid "October"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:526 libs/cs-framework-overwrites.php:526
+msgid "November"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:527 libs/cs-framework-overwrites.php:527
+msgid "December"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:533
+msgid "Year"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:538
+msgid "Event Host"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:543
+msgid "Location"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:548
+msgid "Event others info"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:549 libs/cs-framework-overwrites.php:550
+msgid "Add New Info"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:555 libs/cs-framework-overwrites.php:669
+msgid "Info title"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:560
+msgid "Info Info"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:568
+msgid "Enable buy tickets button?"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:574 libs/cs-framework-overwrites.php:688
+#: libs/cs-framework-overwrites.php:761
+msgid "Button text"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:581
+msgid "Link to page?"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:588
+msgid "Button link to page"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:594
+msgid "Button link to external"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:600 libs/cs-framework-overwrites.php:718
+#: libs/cs-framework-overwrites.php:789
+msgid "Lins open in"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:603 libs/cs-framework-overwrites.php:721
+#: libs/cs-framework-overwrites.php:792
+msgid "Same tab"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:604 libs/cs-framework-overwrites.php:722
+#: libs/cs-framework-overwrites.php:793
+msgid "New tab"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:612
+msgid "Show google map on event details page?"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:621
+msgid "Testimonial Options"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:632
+msgid "Designation"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:641
+msgid "Course Options"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:652 template-parts/content.php:144
+msgid "Price"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:657
+msgid "Teacher name"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:662
+msgid "Course info"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:663 libs/cs-framework-overwrites.php:664
+msgid "Add New info"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:674
+msgid "Info text"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:682
+msgid "Enable register button?"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:687
+msgid "Register now"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:694 libs/cs-framework-overwrites.php:766
+msgid "Button link to"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:697 libs/cs-framework-overwrites.php:769
+msgid "Page"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:706 libs/cs-framework-overwrites.php:777
+msgid "Select page"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:733
+msgid "Slide Options"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:745 libs/cs-framework-overwrites.php:746
+msgid "Add New button"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:751
+msgid "Button type"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:754
+msgid "Filled button"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:755
+msgid "Bordered button"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:801
+msgid "Right side image"
+msgstr ""
+
+#: libs/cs-framework-overwrites.php:802
+msgid "Upload slider right side image."
+msgstr ""
+
+#: template-parts/content-page.php:18 template-parts/content.php:207
+msgid "Pages:"
+msgstr ""
+
+#. %s: Name of current post
+#. %s: Name of current post
+#: template-parts/content-page.php:30 inc/template-tags.php:91
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: template-parts/content-search.php:26
+msgid "Read More "
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content.php:114
+msgid "Loading ..."
+msgstr ""
+
+#: template-parts/content.php:122
+msgid "Event Information"
+msgstr ""
+
+#: template-parts/content.php:124
+msgid "Course Information"
+msgstr ""
+
+#: template-parts/content.php:140
+msgid "Category"
+msgstr ""
+
+#: template-parts/content.php:203
+msgid "Learn More "
+msgstr ""
+
+#: inc/template-tags.php:31
+#, php-format
+msgctxt "post date"
+msgid "%s"
+msgstr ""
+
+#: inc/template-tags.php:36
+#, php-format
+msgctxt "post author"
+msgid "%s"
+msgstr ""
+
+#. %s: post title
+#: inc/template-tags.php:53
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:71 inc/template-tags.php:79
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:73
+#, php-format
+msgid "Posted in: %1$s"
+msgstr ""
+
+#: inc/template-tags.php:81
+#, php-format
+msgid "Tagged: %1$s"
+msgstr ""
+
+#: inc/required-plugins.php:12
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/required-plugins.php:18
+msgid "One Click Demo Import"
+msgstr ""
+
+#: inc/required-plugins.php:24
+msgid "WPBakery Visual Composer"
+msgstr ""
+
+#: inc/required-plugins.php:31
+msgid "Educare Toolkit"
+msgstr ""
+
+#: libs/custom-breadcrumbs/custom-breadcrumbs.php:25
+msgid "Archive by category \""
+msgstr ""
+
+#: libs/custom-breadcrumbs/custom-breadcrumbs.php:28
+msgid "Search results for \""
+msgstr ""
+
+#: libs/custom-breadcrumbs/custom-breadcrumbs.php:86
+msgid "Posts tagged \""
+msgstr ""
+
+#: libs/custom-breadcrumbs/custom-breadcrumbs.php:91
+msgid "Articles posted by"
+msgstr ""
+
+#: libs/custom-breadcrumbs/custom-breadcrumbs.php:94
+msgid "Error 404"
+msgstr ""
+
+#: libs/cs-framework/classes/shortcode.class.php:82
+#: libs/cs-framework/classes/shortcode.class.php:90
+#: libs/cs-framework/fields/textarea/textarea.php:27
+msgid "Add Shortcode"
+msgstr ""
+
+#: libs/cs-framework/classes/shortcode.class.php:92
+msgid "Select a shortcode"
+msgstr ""
+
+#: libs/cs-framework/classes/shortcode.class.php:108
+msgid "Insert Shortcode"
+msgstr ""
+
+#: libs/cs-framework/classes/framework.class.php:175
+msgid "Success. Imported backup options."
+msgstr ""
+
+#: libs/cs-framework/classes/framework.class.php:180
+msgid "Default options restored."
+msgstr ""
+
+#: libs/cs-framework/classes/framework.class.php:199
+msgid "Default options restored for only this section."
+msgstr ""
+
+#: libs/cs-framework/classes/framework.class.php:365
+msgid "Settings saved."
+msgstr ""
+
+#: libs/cs-framework/classes/framework.class.php:367
+msgid "Save"
+msgstr ""
+
+#: libs/cs-framework/classes/framework.class.php:367
+msgid "Saving..."
+msgstr ""
+
+#: libs/cs-framework/classes/framework.class.php:368
+msgid "Restore"
+msgstr ""
+
+#: libs/cs-framework/classes/framework.class.php:371
+#: libs/cs-framework/fields/backup/backup.php:29
+msgid "Reset All Options"
+msgstr ""
+
+#: libs/cs-framework/classes/framework.class.php:375
+msgid "show all options"
+msgstr ""
+
+#: libs/cs-framework/classes/options.class.php:125
+msgid "CONFIG"
+msgstr ""
+
+#: libs/cs-framework/classes/options.class.php:131
+#: libs/cs-framework/classes/options.class.php:151
+msgid "USAGE"
+msgstr ""
+
+#: libs/cs-framework/classes/options.class.php:137
+msgid "VALUE"
+msgstr ""
+
+#: libs/cs-framework/classes/options.class.php:155
+msgid "ID"
+msgstr ""
+
+#: libs/cs-framework/classes/options.class.php:227
+#, php-format
+msgid "You are editing language: ( <strong>%s</strong> )"
+msgstr ""
+
+#: libs/cs-framework/functions/actions.php:32
+#: libs/cs-framework/fields/typography/typography.php:107
+msgid "Error! Can not load json file."
+msgstr ""
+
+#: libs/cs-framework/functions/actions.php:82
+#: libs/cs-framework/fields/icon/icon.php:25
+msgid "Add Icon"
+msgstr ""
+
+#: libs/cs-framework/functions/actions.php:83
+msgid "Search a Icon..."
+msgstr ""
+
+#: libs/cs-framework/functions/actions.php:84
+msgid "Loading..."
+msgstr ""
+
+#: libs/cs-framework/functions/validate.php:14
+msgid "Please write a valid email address!"
+msgstr ""
+
+#: libs/cs-framework/functions/validate.php:33
+msgid "Please write a numeric data!"
+msgstr ""
+
+#: libs/cs-framework/functions/validate.php:51
+msgid "Fatal Error! This field is required!"
+msgstr ""
+
+#: libs/cs-framework/functions/helpers.php:48
+msgid "This field class is not available!"
+msgstr ""
+
+#: libs/cs-framework/fields/typography/typography.php:73
+msgid "Web Safe Fonts"
+msgstr ""
+
+#: libs/cs-framework/fields/typography/typography.php:79
+msgid "Google Fonts"
+msgstr ""
+
+#: libs/cs-framework/fields/upload/upload.php:23
+#: libs/cs-framework/fields/upload/upload.php:24
+#: libs/cs-framework/fields/background/background.php:34
+#: libs/cs-framework/fields/background/background.php:35
+msgid "Upload"
+msgstr ""
+
+#: libs/cs-framework/fields/upload/upload.php:25
+#: libs/cs-framework/fields/background/background.php:36
+msgid "Use Image"
+msgstr ""
+
+#: libs/cs-framework/fields/backup/backup.php:21
+msgid "Import a Backup"
+msgstr ""
+
+#: libs/cs-framework/fields/backup/backup.php:22
+msgid "copy-paste your backup string here"
+msgstr ""
+
+#: libs/cs-framework/fields/backup/backup.php:27
+msgid "Export and Download Backup"
+msgstr ""
+
+#: libs/cs-framework/fields/backup/backup.php:28
+msgid "or"
+msgstr ""
+
+#: libs/cs-framework/fields/backup/backup.php:30
+msgid "Please be sure for reset all of framework options."
+msgstr ""
+
+#: libs/cs-framework/fields/group/group.php:21
+msgid "Adding"
+msgstr ""
+
+#: libs/cs-framework/fields/group/group.php:43
+#: libs/cs-framework/fields/group/group.php:75
+msgid "Remove"
+msgstr ""
+
+#: libs/cs-framework/fields/gallery/gallery.php:21
+msgid "Add Gallery"
+msgstr ""
+
+#: libs/cs-framework/fields/gallery/gallery.php:22
+msgid "Edit Gallery"
+msgstr ""
+
+#: libs/cs-framework/fields/gallery/gallery.php:23
+msgid "Clear"
+msgstr ""
+
+#: libs/cs-framework/fields/icon/icon.php:26
+msgid "Remove Icon"
+msgstr ""
+
+#: libs/cs-framework/fields/switcher/switcher.php:20
+msgid "on"
+msgstr ""
+
+#: libs/cs-framework/fields/switcher/switcher.php:20
+msgid "off"
+msgstr ""
+
+#: libs/cs-framework/fields/sorter/sorter.php:24
+msgid "Enabled Modules"
+msgstr ""
+
+#: libs/cs-framework/fields/sorter/sorter.php:25
+msgid "Disabled Modules"
+msgstr ""
+
+#: libs/cs-framework/fields/image/image.php:22
+msgid "Add Image"
+msgstr ""
+
+#. Name of the theme
+msgid "Educare champtheme"
+msgstr ""
+
+#. Description of the theme
+msgid "ChampTheme WordPress theme"
+msgstr ""
+
+#. URI of the theme
+msgid "http://crazycafe.net/demos/wp/educare"
+msgstr ""
+
+#. Author of the theme
+msgid "champtheme"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://champtheme.com"
+msgstr ""

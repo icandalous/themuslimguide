@@ -1,0 +1,271 @@
+/*
+Theme Name: Muslim Guide Special Theme
+Template: educare-champtheme
+*/
+
+@import url("../educare-champtheme/style.css");
+
+/*
+*****************************
+    Stylesheet Index
+*****************************
+
+    * 01. Common CSS
+    * 02. Header CSS
+    * 03. Breadcroumb CSS
+    * 04. 404 page CSS
+    * 05. Blog CSS
+    * 06. Footer CSS
+
+
+*****************************
+    01. Common css
+*****************************
+*/
+
+
+
+/*
+*****************************
+    02. Header css
+*****************************
+*/
+
+
+
+/*menu css*/
+
+
+.menu_wrap ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+.menu_wrap li {
+    display: inline-block;
+    position: relative;
+}
+.menu_wrap ul li a {
+    display: block;
+    font-weight: 500;
+    padding: 9px 20px;
+    position: relative;
+    /*text-transform: lowercase;*/
+}
+.menu_wrap > ul > li > a:hover,
+.menu_wrap > ul > li.current_page_item > a {
+    color: #5aa938;
+    text-decoration: line-through;
+}
+
+
+/*dropdown*/
+
+
+.menu_wrap {
+    text-align: right;
+}
+.menu_wrap ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    z-index: 999!important;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+}
+.menu_wrap ul li {
+    display: inline-block;
+    position: relative;
+}
+.menu_wrap li a {
+    color: #53eee2;
+    display: block;
+    padding: 40px 15px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 15px;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+}
+.menu_wrap ul li ul li > a:after {
+    background: #5aa938 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 0;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+}
+.menu_wrap ul li ul li:hover > a:after{
+    width: 100%;
+}
+.menu_wrap ul li:hover > a {
+    color: #5aa938
+}
+.menu_wrap ul li.boxed-menu a {
+    background: #5aa938 none repeat scroll 0 0;
+    color: #fff;
+    padding: 8px 20px;
+}
+.menu_wrap ul li {
+    position: relative;
+}
+.menu_wrap ul li a {
+    margin-left: 0;
+}
+.menu_wrap ul li ul {
+    background: #fff none repeat scroll 0 0;
+    left: 0;
+    position: absolute;
+    top: 120%;
+    width: 260px;
+    z-index: 2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    margin: 0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    visibility: hidden;
+    z-index: 9;
+    text-transform: none;
+    -webkit-transition: .4s;
+    transition: .4s
+}
+.menu_wrap ul > li:nth-last-child(1) > ul,
+.menu_wrap ul > li:nth-last-child(2) > ul,
+.menu_wrap ul > li:nth-last-child(3) > ul,
+.menu_wrap ul > li:nth-last-child(4) > ul {
+    right: 0;
+    left: auto;
+}
+.menu_wrap ul li ul li {
+    display: block;
+}
+.menu_wrap ul li ul li a {
+    display: block;
+    text-align: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding: 5px 15px;
+    line-height: 30px;
+    text-transform: none
+}
+.menu_wrap ul li ul li a.sub-siblings{
+    padding-left: 32px;
+}
+.menu_wrap ul li ul li:last-child a {
+    border-bottom: 0px solid
+}
+div.menu_wrap ul li ul li a:before {
+    content: '\f105';
+    font-family: 'fontawesome';
+    margin-right: 10px;
+    color: #5aa938;
+    margin-left: 5px;
+    background-color: transparent;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+}
+.menu_wrap ul li ul li:hover > a,
+.menu_wrap ul li ul li.current_page_item > a,
+.menu_wrap ul li ul li.current-page-ancestor > a {
+    border-color: transparent;
+    background-color: #f3f2f2;
+    border-left-color: #5aa938;
+}
+.menu_wrap ul li ul li ul {
+    left: 100%;
+    top: 200%;
+}
+.menu_wrap ul > li:nth-last-child(4) ul > li > ul,
+.menu_wrap ul > li:nth-last-child(5) ul > li > ul,
+.menu_wrap ul > li:nth-last-child(1) ul > li > ul,
+.menu_wrap ul > li:nth-last-child(2) ul > li > ul,
+.menu_wrap ul > li:nth-last-child(3) ul > li > ul,
+.menu_wrap ul > li > ul > li > ul > li > ul {
+    left: auto;
+    right: 100%;
+}
+.menu_wrap ul > li:nth-last-child(1) > ul > li > ul > li > ul,
+.menu_wrap ul > li:nth-last-child(2) > ul > li > ul > li > ul,
+.menu_wrap ul > li:nth-last-child(3) > ul > li > ul > li > ul,
+.menu_wrap ul > li:nth-last-child(4) > ul > li > ul > li > ul,
+.menu_wrap ul > li:nth-last-child(5) > ul > li > ul > li > ul {
+    right: auto;
+    left: 100%;
+}
+.menu_wrap .sub-siblings:before {
+    content: "\f105";
+    font-family: "fontawesome";
+    margin-left: 7px;
+    position: absolute;
+    top: 50%;
+    right: 7px;
+    line-height: 20px;
+    margin-top: -10px;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+}
+.menu_wrap ul li ul li a.sub-siblings:before {
+    right: 20px;
+}
+.menu_wrap ul > li:hover > ul {
+    top: 100%;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    visibility: visible;
+}
+.menu_wrap ul > li:hover > ul > li:hover > ul,
+.menu_wrap ul > li:hover > ul > li:hover > ul > li:hover > ul {
+    top: -1px;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    visibility: visible;
+}
+.menu_wrap ul > li:hover > a.sub-siblings:before {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+}
+.menu_wrap ul > li > a.sub-siblings {
+    padding-right: 20px;
+}
+
+
+/*
+*****************************
+    03. Breadcroumb css
+*****************************
+*/
+
+
+
+/*
+*****************************
+    04. 404 page css
+*****************************
+*/
+
+
+
+/*
+*****************************
+    05. Blog Area css
+*****************************
+*/
+
+
+
+/*
+*****************************
+    06. Footer css
+*****************************
+*/
+

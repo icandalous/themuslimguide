@@ -1486,3 +1486,53 @@ div.vc_tta.vc_tta-accordion .vc_active .vc_tta-controls-icon-position-left.vc_tt
         width: 48%;
     }
 }
+
+/****************************************
+AJOUT
+*******************************************/
+  .one-edge-shadow {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
+}
+.card-title {
+    /*background-color: green;*/
+	color:#F9770E;
+    /*height: 49px;*/
+    /*box-shadow: 4px 5px 14px -3px;*/
+    /*padding: 5px 5px;*/
+}
+.card-block{
+padding:10px;
+}
+.card{
+background-color: white;
+height:200px;
+}
+.card p{
+height:80px;
+overflow:hidden;
+}
+.card:hover{
+/*background-color: #F9770E;*/
+border:5px solid #BA672C;
+}
+
+.card:hover h4{
+color: #BA672C;;
+}
+
+.card:hover a.btn-details-courses{
+background-color: #BA672C!important;
+}
+
+a.btn-details-courses{
+background-color: #F9770E!important;
+border-color:white!important;
+color:white;
+}
+
+a.btn-details-courses:hover{
+border-color:white!important;
+color:white;
+}

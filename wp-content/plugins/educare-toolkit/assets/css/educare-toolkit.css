@@ -1495,34 +1495,34 @@ AJOUT
      -moz-box-shadow: 0 8px 6px -6px black;
           box-shadow: 0 8px 6px -6px black;
 }
-.card-title {
+.cours .card-title {
     /*background-color: green;*/
 	color:#F9770E;
     /*height: 49px;*/
     /*box-shadow: 4px 5px 14px -3px;*/
     /*padding: 5px 5px;*/
 }
-.card-block{
+.cours .card-block{
 padding:10px;
 }
-.card{
+.cours .card{
 background-color: white;
 height:200px;
 }
-.card p{
+.cours .card p{
 height:80px;
 overflow:hidden;
 }
-.card:hover{
+.cours .card:hover{
 /*background-color: #F9770E;*/
 border:5px solid #BA672C;
 }
 
-.card:hover h4{
+.cours .card:hover h4{
 color: #BA672C;;
 }
 
-.card:hover a.btn-details-courses{
+.cours .card:hover a.btn-details-courses{
 background-color: #BA672C!important;
 }
 
@@ -1535,4 +1535,34 @@ color:white;
 a.btn-details-courses:hover{
 border-color:white!important;
 color:white;
+}
+
+a {transition: .25s all;}
+article.card {
+  overflow: hidden;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+  height:500px;
+}
+article.card:focus, .card:hover{
+box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
+}
+article.card-inverse .card-img-overlay {
+  background-color: rgba(#333,.85);
+  border-color: rgba(#333,.85);
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+div.description, div.description h1, div.description h2, div.description h3, div.description h4, div.description h5, div.description h6 {
+    font-size:12px;
+	font-weight: 100;
+	margin:0;
+}
+
+div.description, div.description div{
+	margin-bottom: 10px;
+	height: 123px;
 }

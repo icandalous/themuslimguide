@@ -63,9 +63,13 @@ function educare_courses_shortcode($atts){
             }
             $educare_courses_markup .= '<div class="'.esc_attr($course_column_markup).'">';
         }
+		
+		if(empty($course_column_markup)){
+			$course_column_markup = 'col-md-3';
+		}
     
         $educare_courses_markup .= '
-  <div class="col-sm-3">
+  <div class="cours '. $course_column_markup.'">
     <div class="card one-edge-shadow">
       <div class="card-block">
          <h6 class="card-title">'.esc_html(get_the_title($idd)).'</h6><p class="card-text">

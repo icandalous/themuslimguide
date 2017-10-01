@@ -1189,6 +1189,7 @@ nav.posts-navigation .nav-links .nav-next {
 }
 .footer.site-footer .widget {
     margin-bottom: 50px;
+	margin-right: 20px;
 }
 .footer.site-footer .widget h2.footer-widget-title {
     color: #fff;
@@ -1216,6 +1217,25 @@ nav.posts-navigation .nav-links .nav-next {
   opacity: .7;
 }
 
+/*//////////////*/
+.footer-top-widgets #qtranslate-2{
+	width:15%;
+	padding: 17px;
+	
+}
+.footer-top-widgets .container {
+    width: 100%;
+    padding: 10px;
+}
+
+.wpcw-widget-contact{
+	width:21%;
+}
+
+.newsletter-api-form-theme1 .subscriber_submit {
+    background-color: #5aa938 !important;
+    color: #fff;
+}
 
 /*   responsive   */
 

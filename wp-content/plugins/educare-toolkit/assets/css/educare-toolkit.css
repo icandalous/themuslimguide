@@ -1217,12 +1217,10 @@ div.vc_tta.vc_tta-accordion .vc_active .vc_tta-controls-icon-position-left.vc_tt
   padding: 7px 10px;display: inline-block
 }
 
-  .features {
-    background-color: white;
-    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.09);
-    height: 250px;
+.features {
+    height: 500px;
     padding-top: 10px;
-	margin:10px;
+	margin: 10px;
     text-align: center;
 	border-top: 10px solid #008a32;
 	border-left: 1px solid;
@@ -1251,14 +1249,14 @@ div.vc_tta.vc_tta-accordion .vc_active .vc_tta-controls-icon-position-left.vc_tt
 	background-color:rgba(25, 40, 204, 0.93);
 }
 
-.features-list h1 {
+.features h1 {
 	font-family: Boing-Bold,​"Arial Black",​sans-serif;
     color: #24374b;
     font-size: 20px;
     /*margin: 10px 0 0 10px;*/
 }
 .features span{
-   width:50%; 
+   width:75%; 
    margin: 5px;
 }
 .btn-primary {
@@ -1267,9 +1265,9 @@ div.vc_tta.vc_tta-accordion .vc_active .vc_tta-controls-icon-position-left.vc_tt
     color: #fff !important;
 }
 .features .contenu{
-	width: 80%;
+	width: 100%;
 	overflow:hidden;
-	height:50%;
+	height:75%;
 }
 
 

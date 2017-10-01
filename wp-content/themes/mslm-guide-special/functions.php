@@ -115,7 +115,8 @@ if ( $sidebar_id == 'footer-widgets' ) {
 
     $total_widgets = wp_get_sidebars_widgets();
     $sidebar_widgets = count($total_widgets[$sidebar_id]);
-    
+    //En commentaires pour ne pas diviser le footer en part égal.
+	
     /*if($sidebar_widgets == 2) {
         $footer_wid_width_markup = 'col-xs-12 col-sm-6';
     } elseif($sidebar_widgets == 3) {

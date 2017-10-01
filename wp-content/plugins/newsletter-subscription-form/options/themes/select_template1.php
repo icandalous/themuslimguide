@@ -3,7 +3,6 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 	$wl_nls_options = get_option('weblizar_nls_options');
 	//$widget_nlf_form_widget = get_option('widget_nlf_form_widget');
 ?>
-	<!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script-->
 	<link rel="stylesheet" href="<?php echo plugin_dir_url( __FILE__ ).'../css/font-awesome.min.css'; ?>" />
 	<link rel="stylesheet" href="<?php echo plugin_dir_url( __FILE__ ).'css/style-1.css'; ?>" />
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=<?php echo $wl_nls_options['theme_font_family']; ?>">	

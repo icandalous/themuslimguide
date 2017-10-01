@@ -90,17 +90,12 @@ function menu_on_footer_scripts()
    $menu_footer_page_depth = get_option("page_depth");
    $menu_footer_cat_orderby = get_option("cat_orderby");
    
-     //echo '<div class="content_footer_menu">';
-     //echo '<ul class="footer_menu">';
    if ($menu_footer_cat_show =='show'){
      echo  wp_list_categories('depth='.$menu_footer_cat_depth.'&title_li&orderby='.$menu_footer_cat_orderby .'&exclude='.$menu_footer_cat_exclude);
    }
    if ($menu_footer_page_show =='show'){
      echo  wp_list_pages('depth='.$menu_footer_page_depth.'&title_li=&exclude='.$menu_footer_page_exclude);  
    }
-     //echo '</ul>';
-     //echo '<div class="cleaner"></div>';
-     //echo '</div>';
  }
  if (get_option("use_like")=='plugin'){add_action('wp_footer', 'menu_on_footer_scripts');}
 
@@ -130,22 +125,16 @@ class Menu_On_Footer extends WP_Widget {
 	   
 		// echo '<div class="content_footer_menu">';
 		 //echo '<ul class="footer_menu">';
-	   if ($menu_footer_cat_show =='show'){
-		 //echo  wp_list_categories('depth='.$menu_footer_cat_depth.'&title_li&orderby='.$menu_footer_cat_orderby .'&exclude='.$menu_footer_cat_exclude);
-	   }
+	   
 	   if ($menu_footer_page_show =='show'){
-		   //var_dump(wp_list_pages('depth='.$menu_footer_page_depth.'&title_li=&exclude='.$menu_footer_page_exclude));
-		 //echo  wp_list_pages('depth='.$menu_footer_page_depth.'&title_li=&exclude='.$menu_footer_page_exclude);  
 		 $menuLocations = get_nav_menu_locations(); 
 		 $menuID = $menuLocations['primary']; // Get the *primary* menu ID
 
-		//$primaryNav = wp_get_nav_menu_items($menuID);
-		 //var_dump(wpse_nav_menu_2_tree( $menuID ));
 		 $w = new WPSE_Nav_Menu_Tree;
 		$args = (object) [ 'items_wrap' => '', 'depth' => 0, 'walker' => $w ];
 		$items = wp_get_nav_menu_items( $menuID);
 		walk_nav_menu_tree( $items, $args->depth, $args );
-		//var_dump( $w->branch ); 
+		
 		foreach($w->branch as $item){
 			
 				if(isset($item->wpse_children)){

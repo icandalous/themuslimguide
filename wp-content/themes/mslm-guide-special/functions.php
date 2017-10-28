@@ -115,8 +115,9 @@ if ( $sidebar_id == 'footer-widgets' ) {
 
     $total_widgets = wp_get_sidebars_widgets();
     $sidebar_widgets = count($total_widgets[$sidebar_id]);
-    
-    if($sidebar_widgets == 2) {
+    //En commentaires pour ne pas diviser le footer en part égal.
+	
+    /*if($sidebar_widgets == 2) {
         $footer_wid_width_markup = 'col-xs-12 col-sm-6';
     } elseif($sidebar_widgets == 3) {
         $footer_wid_width_markup = 'col-md-4 col-xs-12 col-sm-6';
@@ -128,7 +129,7 @@ if ( $sidebar_id == 'footer-widgets' ) {
         $footer_wid_width_markup = 'col-md-2 col-xs-12 col-sm-6';
     } else {
         $footer_wid_width_markup = 'col-md-12';
-    }
+    }*/
 
     $params[0]['before_widget'] = str_replace('class="', 'class="'.$footer_wid_width_markup.' ', $params[0]['before_widget']);
 }
@@ -258,3 +259,28 @@ add_filter( 'pt-ocdi/import_files', 'educare_champtheme_import_files' );
 // Removing unnecessary scripts
 remove_action ('wp_head', 'rsd_link');
 remove_action( 'wp_head', 'wlwmanifest_link');
+
+
+//ADD function utils for the menu footer
+if ( ! function_exists( 'wpdocs_get_post_top_ancestor_id' ) ) {
+/**
+ * Gets the id of the topmost ancestor of the current page.
+ *
+ * Returns the current page's id if there is no parent.
+ * 
+ * @return int ID of the top ancestor page.
+ */
+function wpdocs_get_post_top_ancestor_id() {
+    if ( ! $post = get_post() ) {
+        return;
+    }
+     
+    $top_ancestor = $post->ID;
+    if ( $post->post_parent ) {
+        $ancestors = array_reverse( get_post_ancestors( $post->ID ) );
+        $top_ancestor = $ancestors[0];
+    }
+     
+    return $top_ancestor;
+}
+} // Exists.

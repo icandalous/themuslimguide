@@ -120,7 +120,7 @@ wp_head(); ?>
         <div class="header-bottom-area">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-4 col-xs-6">
+                    <div class="">
                         <div class="logo">
                             <a href="<?php echo esc_url( home_url('/') ); ?>">
                                 <?php if(cs_get_option('text_logo') == true) :

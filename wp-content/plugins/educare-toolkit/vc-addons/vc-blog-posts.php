@@ -34,6 +34,12 @@ vc_map(
                 "param_name" => "category",
                 "description" => esc_html__( "Type category name. Leave blank to show posts from all categories", "educare-toolkit" )
             ),
+			array(
+                "type" => "attach_image",
+                "heading" => esc_html__( "Image par defaut", "educare-toolkit" ),
+                "param_name" => "image_default",
+                "description" => esc_html__( "Upload your default image", "educare-toolkit" )
+            ),
             array(
                 "type" => "textfield",
                 "heading" => esc_html__( "Read more button text", "educare-toolkit" ),

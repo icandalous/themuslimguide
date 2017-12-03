@@ -7,6 +7,7 @@ function educare_blog_posts_shortcode($atts){
         'count' => '3',
         'columns' => '3',
         'category' => '',
+		'image_default' => '',
         'btn_text' => esc_html__('Details'),
     ), $atts) );
 
@@ -36,7 +37,7 @@ function educare_blog_posts_shortcode($atts){
             $post_content = get_the_content();
 			$img_url = esc_url(get_the_post_thumbnail_url($idd, 'medium'));
 			if(empty($img_url)){
-				$img_url = "https://snap-photos.s3.amazonaws.com/img-thumbs/960w/1U2EGZ07GU.jpg";
+				$img_url = esc_url(wp_get_attachment_image_src($image_default, 'medium')[0]);
 			}
 			
 			$description = (strlen($post_content) > 250) ? substr($post_content,0,250).'...' : $post_content;
@@ -65,7 +66,7 @@ function educare_blog_posts_shortcode($atts){
 		$list .= '
 		<div class="'.esc_attr($column_markup).'">
 		<article class="card animated fadeInLeft">
-        <img class="card-img-top img-responsive" src="'.$img_url .'" alt="Deer in nature" />
+        <img class="card-img-top img-responsive" src="'.$img_url .'" />
         <div class="card-block">
           <h4 class="card-title"><a href="'.esc_url(get_permalink()).'">'.esc_html(get_the_title($idd)).'</a></h4>
           

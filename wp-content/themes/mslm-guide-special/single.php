@@ -13,7 +13,7 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h2>
+                    <!--h2>
                         <?php 
                         if('course' === get_post_type()) {
                             echo ''.esc_html_e('Course details', 'educare-champtheme').'';
@@ -22,7 +22,7 @@ get_header(); ?>
                         } else {
                             echo ''.esc_html_e('Blog', 'educare-champtheme').'';
                         }?>
-                    </h2>
+                    </h2-->
                     
                     
                 </div>
@@ -57,9 +57,9 @@ get_header(); ?>
                             }
 
                             // If comments are open or we have at least one comment, load up the comment template.
-                            if ( comments_open() || get_comments_number() ) :
+                            /*if ( comments_open() || get_comments_number() ) :
                                 comments_template();
-                            endif;
+                            endif;*/
                         }
 
                     endwhile; // End of the loop.

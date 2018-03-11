@@ -1505,7 +1505,7 @@ padding:10px;
 }
 .cours .card{
 background-color: white;
-height:200px;
+/*height:200px;*/
 }
 .cours .card p{
 height:80px;
@@ -1539,7 +1539,7 @@ a {transition: .25s all;}
 article.card {
   overflow: hidden;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
-  height:500px;
+  /*height:500px;*/
 }
 article.card:focus, .card:hover{
 box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);

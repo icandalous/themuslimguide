@@ -32,6 +32,7 @@ class educareVCExtendAddonClass {
         include EDUC_ACC_PATH . '/vc-addons/vc-logo-carousel.php';
         include EDUC_ACC_PATH . '/vc-addons/vc-events.php';
         include EDUC_ACC_PATH . '/vc-addons/vc-gallery.php';
+		include EDUC_ACC_PATH . '/vc-addons/vc-mutashabihates.php';
 
     }
 

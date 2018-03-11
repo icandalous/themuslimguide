@@ -72,7 +72,7 @@ function educare_courses_shortcode($atts){
   <div class="cours '. $course_column_markup.'">
     <div class="card one-edge-shadow">
       <div class="card-block">
-         <h6 class="card-title">'.esc_html(get_the_title($idd)).'</h6><p class="card-text">
+         <h4 class="card-title">'.ucfirst(esc_html(get_the_title($idd))).'</h4><p class="card-text">
                 '.$post_content.'</p>
                 <a href="'.esc_url(get_permalink()).'" class="btn btn-details-courses">'.esc_html($btn_text).'</a>
       </div>

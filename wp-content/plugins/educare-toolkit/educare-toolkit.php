@@ -146,6 +146,7 @@ function educare_toolkit_custom_post() {
             'menu_icon' => 'dashicons-star-half'
         )
     );
+	
     
     register_taxonomy(
         'course_cat',  
@@ -203,6 +204,7 @@ require_once( EDUC_ACC_PATH . 'theme-shortcodes/logo-carousel-shortcode.php' );
 require_once( EDUC_ACC_PATH . 'theme-shortcodes/events-shortcode.php' );
 require_once( EDUC_ACC_PATH . 'theme-shortcodes/gallery-shortcode.php' );
 require_once( EDUC_ACC_PATH . 'theme-shortcodes/extra-shortcodes.php' );
+require_once( EDUC_ACC_PATH . 'theme-shortcodes/mutashab-page-shortcode.php' );
 
 // Shortcodes depended on Visual Composer
 include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
@@ -216,6 +218,9 @@ function educare_toolkit_files(){
     wp_enqueue_style('owl-carousel', plugin_dir_url( __FILE__ ) .'assets/css/owl.carousel.css');
     wp_enqueue_style('jquery-marnific', plugin_dir_url( __FILE__ ) .'assets/css/magnific-popup.css');
     wp_enqueue_style('educare-toolkit-main', plugin_dir_url( __FILE__ ) .'assets/css/educare-toolkit.css');
+	wp_enqueue_style('mutashab', plugin_dir_url( __FILE__ ) .'assets/css/mutashab.css');
+	wp_enqueue_style('mutashab-reset', plugin_dir_url( __FILE__ ) .'assets/css/mutashab-reset.css');
+	wp_enqueue_style('mutashab-style', plugin_dir_url( __FILE__ ) .'assets/css/mutashab-style.css');
     
     wp_enqueue_script( 'jquery-perfect-scrollbar', plugin_dir_url( __FILE__ ) . 'assets/js/perfect-scrollbar.jquery.min.js', array('jquery'), '20120206', true );
     wp_enqueue_script( 'jquery-isotope', plugin_dir_url( __FILE__ ) . 'assets/js/isotope-2.1.min.js', array('jquery'), '20120206', true );
@@ -223,6 +228,11 @@ function educare_toolkit_files(){
     wp_enqueue_script( 'owl-carousel', plugin_dir_url( __FILE__ ) . 'assets/js/owl.carousel.min.js', array('jquery'), '20120206', true );
     wp_enqueue_script( 'jquery-magnific', plugin_dir_url( __FILE__ ) . 'assets/js/jquery.magnific-popup.min.js', array('jquery'), '20120206', true );
     wp_enqueue_script( 'educare-toolkit-main', plugin_dir_url( __FILE__ ) . 'assets/js/industry-toolkit.js', array('jquery'), '20120206', true );
-    
+	wp_enqueue_script( 'mutashab-main', plugin_dir_url( __FILE__ ) . 'assets/js/main-mutashab.js', array('jquery'), '20120206', true );
+	wp_enqueue_script( 'jquery.mixitup', plugin_dir_url( __FILE__ ) . 'assets/js/jquery.mixitup.min.js', array('jquery'), '20120206', true );
+	wp_enqueue_script( 'jquery-ui', 'https://code.jquery.com/ui/1.12.1/jquery-ui.js', array('jquery'), '20120206', true );
+	wp_enqueue_script( 'modernizr', plugin_dir_url( __FILE__ ) . 'assets/js/modernizr.js', array('jquery'), '20120206', true );
+	
+
 }
 add_action('wp_enqueue_scripts', 'educare_toolkit_files'); 

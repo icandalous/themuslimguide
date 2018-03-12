@@ -41,27 +41,6 @@ function educare_blog_posts_shortcode($atts){
 			}
 			
 			$description = (strlen($post_content) > 250) ? substr($post_content,0,250).'...' : $post_content;
-    
-           /* $list .= '
-                <div class="'.esc_attr($column_markup).'">
-                <div class="educare-boxed-post-wrap">
-                    <div style="background-image:url('.esc_url(get_the_post_thumbnail_url($idd, 'medium')).')" class="educare-post-block-img">
-                        <div class="educare-loading-bar">
-                            <p><i class="fa fa-cog fa-spin"></i> '.esc_html__('Loading ...', 'educare-toolkit').'</p>
-                        </div>
-                        <div class="educare-pb-date">
-                            <p>'.esc_html(get_the_date('d', $idd)).' <span>'.esc_html(get_the_date('F', $idd)).'</span></p>
-                        </div>
-                    </div>
-                    
-                    <p class="educare-pb-meta"><i class="fa fa-user"></i> <span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author() ) . '</a></span> <span class="educare-pb-meta-right"><span class="post-comments-number"><i class="fa fa-comments"></i> '.esc_html(get_comments_number($idd)).'</span></span></p>
-                    
-                    <h3><a href="'.esc_url(get_permalink()).'">'.esc_html(get_the_title($idd)).'</a></h3>
-                    
-                    <a href="'.esc_url(get_permalink()).'" class="educare-btn bordered-btn">'.esc_html($btn_text).' <i class="fa fa-long-arrow-right"></i></a>
-                </div>
-                </div>
-                ';*/
 				
 		$list .= '
 		<div class="'.esc_attr($column_markup).'">

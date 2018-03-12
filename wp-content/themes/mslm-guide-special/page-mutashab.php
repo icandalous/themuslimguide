@@ -1,13 +1,7 @@
 <?php
 /**
- * The template for displaying all pages.
+ * Template name: Mutashaabihaates
  *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site may use a
- * different template.
- *
- * @link https://codex.wordpress.org/Template_Hierarchy
  *
  * @package Educare
  */
@@ -49,7 +43,7 @@ get_header(); ?>
     <?php endif; ?>
     
     <div class="internal-content-area <?php echo esc_attr($visual_composer_detect); ?>">
-        <div class="container">
+        <div class="mutashab-container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="internal-content">

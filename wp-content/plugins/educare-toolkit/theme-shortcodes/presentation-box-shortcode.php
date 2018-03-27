@@ -43,13 +43,16 @@ function educare_presentation_box_shortcode( $atts, $content = null  ) {
 	
     $service_box_markup .= '<div class="animated fadeInLeft '.esc_attr(get_type_section($type)).'">
 	<div class="row">
-		<div class="features">					
-			<h1>'.esc_html($title).'</h1>
-			<div class="contenu">'.wp_kses(wpautop($desc), $educare_allowed_html_in_st).'</div>
-			<span><a href="'.esc_url($link_markup).'" class="read-more-btn btn btn-primary">Read More</a></span>
+		<a href="'.esc_url($link_markup).'" class="link-presentation">
+			<div class="features">	
+				<div class="bloc-content">	
+					<h1>'.esc_html($title).'</h1>
+					<div class="contenu">'.wp_kses(wpautop($desc), $educare_allowed_html_in_st).'</div>
+				</div>
 			</div>
-	</div>
-        </div>';
+		</a>
+		</div>
+    </div>';
 
     return $service_box_markup;
 }

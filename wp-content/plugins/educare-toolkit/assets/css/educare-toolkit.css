@@ -1218,25 +1218,52 @@ div.vc_tta.vc_tta-accordion .vc_active .vc_tta-controls-icon-position-left.vc_tt
 }
 
 .features {
-    height: 500px;
+    height: 300px;
+	padding:5px;
     padding-top: 10px;
 	margin: 10px;
-    text-align: center;
+    text-align: justify;
 	border-top: 10px solid #008a32;
 	border-left: 1px solid;
 	background-color: #fff;
     box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.1);
     color: #333;
 	border-radius: 3%;
+	overflow:hidden;
 }
+
+.features:hover * {
+	color: #fff;
+}
+
 .coran .features{
 	border-color:rgba(191, 189, 64, 0.93);
+	max-height: 415px;
 }
+.coran .features:hover{
+	background-color:rgba(191, 189, 64, 0.93);
+	color: #fff;
+	font-weight:bold;
+}
+
 .islam .features{
 	border-color: #008a32;
+	max-height: 300px;
 }
+.islam .features:hover{
+	background-color:#008a32;
+	color: #fff;
+	font-weight:bold;
+}
+
 .profession .features{
 	border-color:rgba(25, 40, 204, 0.93);
+	max-height: 430px;
+}
+.profession .features:hover{
+	background-color:rgba(25, 40, 204, 0.93);
+	color: #fff;
+	font-weight:bold;
 }
 
 .coran .features .btn-primary{
@@ -1248,10 +1275,13 @@ div.vc_tta.vc_tta-accordion .vc_active .vc_tta-controls-icon-position-left.vc_tt
 .profession .features .btn-primary{
 	background-color:rgba(25, 40, 204, 0.93);
 }
-
+a.link-presentation{
+	underline:none;
+	color:#000;
+}
 .features h1 {
 	font-family: Boing-Bold,​"Arial Black",​sans-serif;
-    color: #24374b;
+    /*color: #24374b;*/
     font-size: 20px;
     /*margin: 10px 0 0 10px;*/
 }

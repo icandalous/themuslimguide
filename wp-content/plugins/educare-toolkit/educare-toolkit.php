@@ -232,6 +232,7 @@ function educare_toolkit_files(){
 	wp_enqueue_script( 'jquery.mixitup', plugin_dir_url( __FILE__ ) . 'assets/js/jquery.mixitup.min.js', array('jquery'), '20120206', true );
 	wp_enqueue_script( 'jquery-ui', 'https://code.jquery.com/ui/1.12.1/jquery-ui.js', array('jquery'), '20120206', true );
 	wp_enqueue_script( 'modernizr', plugin_dir_url( __FILE__ ) . 'assets/js/modernizr.js', array('jquery'), '20120206', true );
+	wp_enqueue_script( 'main', plugin_dir_url( __FILE__ ) . 'assets/js/main.js', array('jquery'), '20120206', true );
 	
 
 }

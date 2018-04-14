@@ -42,7 +42,7 @@ Main Components
 }
 .cd-header nav {
   color: #ffffff;
-  line-height: 150px;
+  /*line-height: 150px;*/
   text-align: center;
   font-size: 2.4rem;
   font-weight: 300;
@@ -52,7 +52,7 @@ Main Components
     height: 180px;
   }
   .cd-header nav {
-    line-height: 180px;
+    /*line-height: 180px;*/
 	width: 55%;
     margin: auto;
     padding: 50px;
@@ -645,8 +645,12 @@ xcustom form elements
 /***********************************************************************************
 				ajout
 *************************************************************************************/
-
-
+#search-text {
+	width: 700px;
+}
+/*input-group-btn{
+	width: 10%;
+}   
 #search-text{
     font-size: 18px;
     padding: 16px;
@@ -658,4 +662,4 @@ xcustom form elements
 
 #btn-search-ayats .label-icon{
         font-size: 18px;
-}
+}*/

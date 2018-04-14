@@ -46,7 +46,7 @@ $footer_right_text = cs_get_option('footer_right_text');
                         <?php if(!empty($footer_left_text)) : ?>
                         <p><?php echo wp_kses(cs_get_option('footer_left_text'), $educare_allowed_html_in_footer); ?></p>
                         <?php else : ?>
-                        <p><?php esc_html_e('Copyright @ Educare 2017. All right reserved', 'educare-champtheme'); ?></p>
+                        <p><?php esc_html_e('Copyright @ Andalous 2018. All right reserved', 'educare-champtheme'); ?></p>
                         <?php endif; ?>
                     </div>
                     <div class="col-md-6 text-right">

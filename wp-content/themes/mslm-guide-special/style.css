@@ -1238,6 +1238,13 @@ nav.posts-navigation .nav-links .nav-next {
     color: #fff;
 }
 
+.footer-top-widgets {
+	padding: 0px 70px;
+}
+.footer-top-widgets .row div{
+	display: inline-block;
+}
+
 /*   responsive   */
 
 @media only screen and (min-width: 992px) and (max-width: 1265px){

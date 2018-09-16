@@ -1,0 +1,180 @@
+1537072341a:1:{s:12:"mutashab.htm";a:9:{s:8:"fileName";s:12:"mutashab.htm";s:7:"content";s:3360:"title = "Les versets similaires"
+url = "/coran/mutashab"
+layout = "quran_page"
+is_hidden = 0
+==
+<script type="text/javascript">
+var quranApiUrl = "{{ config('app.mutashab_api_url')[this.environment] }}";
+</script>
+	<div class="container">
+    <br/>
+	<div class="row justify-content-center">
+                        <div class="col-12 col-md-10 col-lg-8">
+                            <form class="card card-sm form-control-borderless">
+                                <div class="card-body row no-gutters align-items-center">
+                                    <div class="col-auto">
+                                        <i class="fas fa-search h4 text-body"></i>
+                                    </div>
+                                    <!--end of col-->
+                                    <div class="col">
+                                        <input id="search-text" class="form-control form-control-lg form-control-borderless" type="search" placeholder="Search topics or keywords">
+                                    </div>
+                                    <!--end of col-->
+                                    <div class="col-auto">
+                                        <button id="btn-search-ayats" class="btn btn-lg btn-success" type="submit">Search</button>
+                                    </div>
+                                    <!--end of col-->
+                                </div>
+                            </form>
+                        </div>
+                        <!--end of col-->
+                    </div>
+</div>
+
+	<main class="cd-main-content">
+		<div class="cd-tab-filter-wrapper">
+			<div class="cd-tab-filter" id="filter-sourate-nav">
+			</div> <!-- cd-tab-filter -->
+		</div> <!-- cd-tab-filter-wrapper -->
+
+		<section class="cd-gallery">
+			
+			<div class="list-group">
+			<ul id="list-mutashabihates">
+			
+			</ul>
+		</div>
+
+			<div class="cd-fail-message">No results found</div>
+		</section> <!-- cd-gallery -->
+
+		<div class="cd-filter">
+			<form>
+				<div class="cd-filter-block">
+					<h4>Search</h4>
+					
+					<div class="cd-filter-content">
+						<input type="search" placeholder="sourate, juz...">
+					</div> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+				
+				<div class="cd-filter-block">
+					<h4>Page filter</h4>
+					
+					<div class="cd-filter-content">
+						<div class="slidecontainer" id="page-filter-zone">
+						</div>
+						<p id="show-page"></p>
+					</div> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+
+				<div class="cd-filter-block">
+					<h4>Select</h4>
+					
+					<div class="cd-filter-content">
+						<div class="cd-select cd-filters" id="juz-filter">
+							<select class="filter" name="selectThis" id="selectThis">
+								<option value="">Choose a Juz</option>
+								<option value=".juz-1">Juz 1</option>
+								<option value=".juz-2">Juz 2</option>
+								<option value=".juz-3">Juz 3</option>
+								<option value=".juz-4">Juz 4</option>
+							</select>
+						</div> <!-- cd-select -->
+					</div> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+
+			</form>
+
+			<a href="#0" class="cd-close">Close</a>
+		</div> <!-- cd-filter -->
+
+		<a href="#0" class="cd-filter-trigger">Filters</a>
+	</main> <!-- cd-main-content -->";s:5:"mtime";i:1537069135;s:6:"markup";s:3259:"<script type="text/javascript">
+var quranApiUrl = "{{ config('app.mutashab_api_url')[this.environment] }}";
+</script>
+	<div class="container">
+    <br/>
+	<div class="row justify-content-center">
+                        <div class="col-12 col-md-10 col-lg-8">
+                            <form class="card card-sm form-control-borderless">
+                                <div class="card-body row no-gutters align-items-center">
+                                    <div class="col-auto">
+                                        <i class="fas fa-search h4 text-body"></i>
+                                    </div>
+                                    <!--end of col-->
+                                    <div class="col">
+                                        <input id="search-text" class="form-control form-control-lg form-control-borderless" type="search" placeholder="Search topics or keywords">
+                                    </div>
+                                    <!--end of col-->
+                                    <div class="col-auto">
+                                        <button id="btn-search-ayats" class="btn btn-lg btn-success" type="submit">Search</button>
+                                    </div>
+                                    <!--end of col-->
+                                </div>
+                            </form>
+                        </div>
+                        <!--end of col-->
+                    </div>
+</div>
+
+	<main class="cd-main-content">
+		<div class="cd-tab-filter-wrapper">
+			<div class="cd-tab-filter" id="filter-sourate-nav">
+			</div> <!-- cd-tab-filter -->
+		</div> <!-- cd-tab-filter-wrapper -->
+
+		<section class="cd-gallery">
+			
+			<div class="list-group">
+			<ul id="list-mutashabihates">
+			
+			</ul>
+		</div>
+
+			<div class="cd-fail-message">No results found</div>
+		</section> <!-- cd-gallery -->
+
+		<div class="cd-filter">
+			<form>
+				<div class="cd-filter-block">
+					<h4>Search</h4>
+					
+					<div class="cd-filter-content">
+						<input type="search" placeholder="sourate, juz...">
+					</div> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+				
+				<div class="cd-filter-block">
+					<h4>Page filter</h4>
+					
+					<div class="cd-filter-content">
+						<div class="slidecontainer" id="page-filter-zone">
+						</div>
+						<p id="show-page"></p>
+					</div> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+
+				<div class="cd-filter-block">
+					<h4>Select</h4>
+					
+					<div class="cd-filter-content">
+						<div class="cd-select cd-filters" id="juz-filter">
+							<select class="filter" name="selectThis" id="selectThis">
+								<option value="">Choose a Juz</option>
+								<option value=".juz-1">Juz 1</option>
+								<option value=".juz-2">Juz 2</option>
+								<option value=".juz-3">Juz 3</option>
+								<option value=".juz-4">Juz 4</option>
+							</select>
+						</div> <!-- cd-select -->
+					</div> <!-- cd-filter-content -->
+				</div> <!-- cd-filter-block -->
+
+			</form>
+
+			<a href="#0" class="cd-close">Close</a>
+		</div> <!-- cd-filter -->
+
+		<a href="#0" class="cd-filter-trigger">Filters</a>
+	</main> <!-- cd-main-content -->";s:4:"code";N;s:5:"title";s:22:"Les versets similaires";s:3:"url";s:15:"/coran/mutashab";s:6:"layout";s:10:"quran_page";s:9:"is_hidden";s:1:"0";}}

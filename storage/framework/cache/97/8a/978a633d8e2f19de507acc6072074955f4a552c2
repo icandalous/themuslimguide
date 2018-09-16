@@ -1,0 +1,52 @@
+1537067498a:1:{s:14:"quran_page.htm";a:6:{s:8:"fileName";s:14:"quran_page.htm";s:7:"content";s:558:"[localePicker]
+forceUrl = 0
+==
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+     {% partial 'quran_css' %}
+
+  </head>
+  <body>
+<header id="header">
+	{% partial 'coran_navbar' %}
+</header>
+    <!-- Header End -->
+  {% partial 'quran_page_banner' %}
+
+ <section id="page" class="">
+    {% page %}
+  </section>
+
+{% partial 'footer_quran' %}
+
+</body>
+</html>";s:5:"mtime";i:1536963675;s:6:"markup";s:524:"<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+     {% partial 'quran_css' %}
+
+  </head>
+  <body>
+<header id="header">
+	{% partial 'coran_navbar' %}
+</header>
+    <!-- Header End -->
+  {% partial 'quran_page_banner' %}
+
+ <section id="page" class="">
+    {% page %}
+  </section>
+
+{% partial 'footer_quran' %}
+
+</body>
+</html>";s:4:"code";N;s:12:"localePicker";a:1:{s:8:"forceUrl";s:1:"0";}}}

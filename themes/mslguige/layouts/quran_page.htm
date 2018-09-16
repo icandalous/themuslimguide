@@ -1,0 +1,28 @@
+[localePicker]
+forceUrl = 0
+==
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+     {% partial 'quran_css' %}
+
+  </head>
+  <body>
+<header id="header">
+	{% partial 'coran_navbar' %}
+</header>
+    <!-- Header End -->
+  {% partial 'quran_page_banner' %}
+
+ <section id="page" class="">
+    {% page %}
+  </section>
+
+{% partial 'footer_quran' %}
+
+</body>
+</html>

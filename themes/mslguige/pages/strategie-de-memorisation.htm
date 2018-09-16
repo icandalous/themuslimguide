@@ -1,0 +1,46 @@
+title = "Stratégie de mémorisation"
+url = "/coran/strategie-de-memorisation"
+layout = "quran_page"
+is_hidden = 0
+
+[blogPosts]
+pageNumber = "{{ :page }}"
+categoryFilter = "strategie-de-motivation"
+postsPerPage = 20
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "author"
+postPage = "author"
+==
+<div class="strategie row">
+ <div class="cover col-md-3">
+   <h1 class="stack">{{ 'Notre guide en 17 points' |_}}</h1>  
+  </div>
+
+  <div class="col-md-9">
+     
+      <div class="zone-point-list">
+          <div class="row">
+              {% for post in posts %}
+              <div class="col-md-4 point">
+                  
+                  <div class="our-team-main">
+                        <div class="team-front">
+  
+                           <a class="" href=""><p>{{ post.title }}</p></a>
+
+                        </div>
+                        
+                    </div>
+              </div>
+              {% endfor %}
+              
+          </div>
+      </div>
+  </div>
+</div>
+<script>
+$(document).ready(function() {
+    $(".stack").lettering();
+  });
+</script>

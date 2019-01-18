@@ -9,6 +9,10 @@ forceUrl = 0
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     
      {% partial 'quran_css' %}
+     
+     <script type="text/javascript">
+var coursApiUrl = "{{ config('app.cours_api_url')[this.environment] }}";
+</script>
 
   </head>
   <body>

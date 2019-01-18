@@ -928,3 +928,153 @@ xcustom form elements
     height:167px;
     overflow:hidden;
 }
+
+/*********************************************
+miaracles dans le coran
+*********************************************/
+.representation-content {
+  margin-top:20px;
+  width: 100%;
+}
+.media {
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  position: absolute;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+figure {
+  height: 370px;
+  overflow: hidden;
+  position: relative;
+}
+figure a {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+figure:hover .media {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}
+figcaption {
+  color: #252830;
+  height: calc(100% - 30px);
+  margin: 15px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 250px;
+}
+.body {
+  background-color: white;
+  bottom: 0;
+  padding: 15px;
+  position: absolute;
+  width: 100%;
+}
+svg {
+  height: inherit;
+  width: 100%;
+}
+svg text {
+  text-anchor: middle;
+}
+svg .alpha {
+  fill: white;
+}
+svg .title {
+  font-size: 28px;
+  font-family: "Montserrat";
+  letter-spacing: 5px;
+}
+svg #base {
+  fill: white;
+  -webkit-mask: url(#mask);
+  mask: url(#mask);
+}
+svg #base1 {
+  fill: white;
+  -webkit-mask: url(#mask1);
+  mask: url(#mask1);
+}
+svg #base2 {
+  fill: white;
+  -webkit-mask: url(#mask2);
+  mask: url(#mask2);
+}
+svg #base3 {
+  fill: white;
+  -webkit-mask: url(#mask3);
+  mask: url(#mask3);
+}
+svg #base4 {
+  fill: white;
+  -webkit-mask: url(#mask4);
+  mask: url(#mask4);
+}
+svg #base5 {
+  fill: white;
+  -webkit-mask: url(#mask5);
+  mask: url(#mask5);
+}
+/*****************************
+side bar miracles coran
+****************************/
+.sidebar {
+  /*position: fixed;
+  width: 25%;*/
+  height: 100vh;
+  background: #CF5309;
+  font-size: 0.65em;
+}
+
+.nav {
+  position: relative;
+  margin: 0 15%;
+  text-align: right;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-weight: bold;
+}
+
+.nav ul {
+  list-style: none;
+}
+.nav ul li {
+  position: relative;
+  margin: 3.2em 0;
+}
+.nav ul li a {
+  line-height: 5em;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.4em;
+  color: rgba(255, 255, 255, 0.35);
+  display: block;
+  transition: all ease-out 300ms;
+}
+.nav ul li.active a {
+  color: white;
+}
+.nav ul li:not(.active)::after {
+  opacity: 0.2;
+}
+.nav ul li:not(.active):hover a {
+  color: rgba(255, 255, 255, 0.75);
+}
+.nav ul li::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 0.2em;
+  background: black;
+  left: 0;
+  bottom: 0;
+  background-image: linear-gradient(to right, #CF5309, #F4C344);
+}

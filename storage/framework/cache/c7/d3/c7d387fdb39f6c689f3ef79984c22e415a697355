@@ -1,4 +1,4 @@
-1537073989a:1:{s:12:"mutashab.htm";a:9:{s:8:"fileName";s:12:"mutashab.htm";s:7:"content";s:3360:"title = "Les versets similaires"
+1547841298a:1:{s:12:"mutashab.htm";a:9:{s:8:"fileName";s:12:"mutashab.htm";s:7:"content";s:3360:"title = "Les versets similaires"
 url = "/coran/mutashab"
 layout = "quran_page"
 is_hidden = 0
@@ -90,7 +90,7 @@ var quranApiUrl = "{{ config('app.mutashab_api_url')[this.environment] }}";
 		</div> <!-- cd-filter -->
 
 		<a href="#0" class="cd-filter-trigger">Filters</a>
-	</main> <!-- cd-main-content -->";s:5:"mtime";i:1537069135;s:6:"markup";s:3259:"<script type="text/javascript">
+	</main> <!-- cd-main-content -->";s:5:"mtime";i:1537655667;s:6:"markup";s:3259:"<script type="text/javascript">
 var quranApiUrl = "{{ config('app.mutashab_api_url')[this.environment] }}";
 </script>
 	<div class="container">

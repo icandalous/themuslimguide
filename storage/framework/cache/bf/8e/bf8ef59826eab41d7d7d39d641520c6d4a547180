@@ -1,0 +1,278 @@
+1547841301a:1:{s:16:"coran_navbar.htm";a:6:{s:8:"fileName";s:16:"coran_navbar.htm";s:7:"content";s:5999:"[localePicker]
+forceUrl = 0
+==
+<!-- Header Start -->
+    
+      <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar nav-bg">
+        <div class="container">
+         <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="mdi mdi-menu"></span>
+              <span class="mdi mdi-menu"></span>
+              <span class="mdi mdi-menu"></span>
+            </button>
+            <a class="navbar-brand" href="/"><img src="{{ 'assets/images/logo.png'|theme }}" /></a>
+          </div>
+          <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+              <li class="nav-item active">
+                <a class="nav-link" href="{{ url('coran') }}">
+                  {{ 'Home'|_}}
+                </a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link" href="#">
+                  {{ 'Cours'|_}}
+                </a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link" href="#">
+                  {{ 'Tajweed'|_}}
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  {{ 'Articles'|_}}
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-item"><a href="#">{{ 'Explications et méditations'|_}}</a></li>
+                  <li class="dropdown-item"><a href="#">{{ 'Miracles dans le coran'|_}}</a></li>
+                  <li class="dropdown-item"><a href="#">{{ 'Les disciplines des récitateurs de Coran'|_}}</a></li>
+                  <li class="dropdown-item"><a href="#">{{ 'Les expériences de mémorisation'|_}}</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  {{ 'Mémorisation'|_}}
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="{{ url('coran/strategie-de-memorisation') }}">{{ 'Stratégies de mémorisation'|_}}</a></li>
+                  <li><a class="dropdown-item" href="{{ url('coran/mutashab') }}">{{ 'Les versets similaires'|_}}</a></li>
+                  <li><a class="dropdown-item" href="#">{{ 'Apps utiles pour mémorisation'|_}}</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{url('/coran/miracles-dans-le-coran')}}">
+                  {{ 'Miracles dans le coran'|_}}
+                </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="/coran">
+                  {{ 'Contact'|_}}
+                </a>
+              </li>
+            </ul>
+            
+            <!-- Search Box Start -->
+            <div class="search-icon">
+              <span class="open-search">
+                <i class="mdi mdi-magnify btn btn-common"></i>
+              </span>
+            </div>
+            <form role="search" class="navbar-form navbar-search">
+              <div class="container">
+                <div class="row">
+                  <div class="form-group has-feedback">
+                    <input type="text" placeholder="Type and search ..." class="form-control">
+                    <div class="close"><i class="mdi mdi-close"></i></div>
+                  </div>
+                </div>
+              </div>
+            </form>
+            <!-- Search Box End -->
+            
+            <form class="form-language">
+              {% component 'localePicker' %}
+              </form>
+          
+          </div>
+          
+        </div>
+        <!-- Mobile Menu Start -->
+        <ul class="wpb-mobile-menu">
+          <li>
+            <a class="active" href="/">
+            {{ 'Home'|_}}
+            </a>
+          </li>
+          <li>
+            <a class="active" href="index.html">
+            {{ 'Cours'|_}}
+            </a>
+          </li>
+          <li>
+            <a class="active" href="index.html">
+            {{ 'Tajweed'|_}}
+            </a>
+          </li>
+          <li>
+            <a href="#">
+            {{ 'Articles'|_}}
+            </a>
+            <ul class="dropdown">
+              <li class="dropdown-item"><a href="about-us2.html">{{ 'Explications et méditations'|_}}</a></li>
+                  <li><a href="#">{{ 'Miracles dans le coran'|_}}</a></li>
+                  <li><a href="#">{{ 'Les disciplines des récitateurs de Coran'|_}}</a></li>
+                  <li><a href="#">{{ 'Les expériences de mémorisation'|_}}</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">
+            {{ 'Mémorisation'|_}}
+            </a>
+            <ul class="dropdown">
+              <li class="dropdown-item"><a href="#">{{ 'stratégies de mémorisation'|_}}</a></li>
+                  <li><a href="{{ 'coran/mutashab'|page }}">{{ 'Les versets similaires'|_}}</a></li>
+                  <li><a href="#">{{ 'Les disciplines des récitateurs de Coran'|_}}</a></li>
+                  <li><a href="#">{{ 'Apps utiles pour mémorisation'|_}}</a></li>
+            </ul>
+          </li>
+          
+          
+          <li>
+            <a href="#">
+            {{ 'Contact Us'|_}}
+            </a>
+          </li>
+        </ul>
+        <!-- Mobile Menu End -->
+      </nav>";s:5:"mtime";i:1537741484;s:6:"markup";s:5965:"<!-- Header Start -->
+    
+      <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar nav-bg">
+        <div class="container">
+         <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="mdi mdi-menu"></span>
+              <span class="mdi mdi-menu"></span>
+              <span class="mdi mdi-menu"></span>
+            </button>
+            <a class="navbar-brand" href="/"><img src="{{ 'assets/images/logo.png'|theme }}" /></a>
+          </div>
+          <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+              <li class="nav-item active">
+                <a class="nav-link" href="{{ url('coran') }}">
+                  {{ 'Home'|_}}
+                </a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link" href="#">
+                  {{ 'Cours'|_}}
+                </a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link" href="#">
+                  {{ 'Tajweed'|_}}
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  {{ 'Articles'|_}}
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-item"><a href="#">{{ 'Explications et méditations'|_}}</a></li>
+                  <li class="dropdown-item"><a href="#">{{ 'Miracles dans le coran'|_}}</a></li>
+                  <li class="dropdown-item"><a href="#">{{ 'Les disciplines des récitateurs de Coran'|_}}</a></li>
+                  <li class="dropdown-item"><a href="#">{{ 'Les expériences de mémorisation'|_}}</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  {{ 'Mémorisation'|_}}
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="{{ url('coran/strategie-de-memorisation') }}">{{ 'Stratégies de mémorisation'|_}}</a></li>
+                  <li><a class="dropdown-item" href="{{ url('coran/mutashab') }}">{{ 'Les versets similaires'|_}}</a></li>
+                  <li><a class="dropdown-item" href="#">{{ 'Apps utiles pour mémorisation'|_}}</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{url('/coran/miracles-dans-le-coran')}}">
+                  {{ 'Miracles dans le coran'|_}}
+                </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="/coran">
+                  {{ 'Contact'|_}}
+                </a>
+              </li>
+            </ul>
+            
+            <!-- Search Box Start -->
+            <div class="search-icon">
+              <span class="open-search">
+                <i class="mdi mdi-magnify btn btn-common"></i>
+              </span>
+            </div>
+            <form role="search" class="navbar-form navbar-search">
+              <div class="container">
+                <div class="row">
+                  <div class="form-group has-feedback">
+                    <input type="text" placeholder="Type and search ..." class="form-control">
+                    <div class="close"><i class="mdi mdi-close"></i></div>
+                  </div>
+                </div>
+              </div>
+            </form>
+            <!-- Search Box End -->
+            
+            <form class="form-language">
+              {% component 'localePicker' %}
+              </form>
+          
+          </div>
+          
+        </div>
+        <!-- Mobile Menu Start -->
+        <ul class="wpb-mobile-menu">
+          <li>
+            <a class="active" href="/">
+            {{ 'Home'|_}}
+            </a>
+          </li>
+          <li>
+            <a class="active" href="index.html">
+            {{ 'Cours'|_}}
+            </a>
+          </li>
+          <li>
+            <a class="active" href="index.html">
+            {{ 'Tajweed'|_}}
+            </a>
+          </li>
+          <li>
+            <a href="#">
+            {{ 'Articles'|_}}
+            </a>
+            <ul class="dropdown">
+              <li class="dropdown-item"><a href="about-us2.html">{{ 'Explications et méditations'|_}}</a></li>
+                  <li><a href="#">{{ 'Miracles dans le coran'|_}}</a></li>
+                  <li><a href="#">{{ 'Les disciplines des récitateurs de Coran'|_}}</a></li>
+                  <li><a href="#">{{ 'Les expériences de mémorisation'|_}}</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">
+            {{ 'Mémorisation'|_}}
+            </a>
+            <ul class="dropdown">
+              <li class="dropdown-item"><a href="#">{{ 'stratégies de mémorisation'|_}}</a></li>
+                  <li><a href="{{ 'coran/mutashab'|page }}">{{ 'Les versets similaires'|_}}</a></li>
+                  <li><a href="#">{{ 'Les disciplines des récitateurs de Coran'|_}}</a></li>
+                  <li><a href="#">{{ 'Apps utiles pour mémorisation'|_}}</a></li>
+            </ul>
+          </li>
+          
+          
+          <li>
+            <a href="#">
+            {{ 'Contact Us'|_}}
+            </a>
+          </li>
+        </ul>
+        <!-- Mobile Menu End -->
+      </nav>";s:4:"code";N;s:12:"localePicker";a:1:{s:8:"forceUrl";s:1:"0";}}}

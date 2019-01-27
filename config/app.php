@@ -147,7 +147,7 @@ return [
 
     ]),
 	
-	'mutashab_api_url' => array('dev' => 'http://localhost/quran-api/public/api/quran/v1/mutashab', 'test' => 'http://logiciel-design.com/projets/andalous/quran-api/public/api/quran/v1/mutashab/', 'prod' => ''),
+	'mutashab_api_url' => array('dev' => 'http://localhost/quran-api/public/api/quran/v1/mutashab/', 'test' => 'http://logiciel-design.com/projets/andalous/quran-api/public/api/quran/v1/mutashab/', 'prod' => ''),
 	
 	'cours_api_url' => array('dev' => 'http://localhost/cours-api/public/api', 'test' => 'http://logiciel-design.com/projets/andalous/cours-api/public/api', 'prod' => ''),
 

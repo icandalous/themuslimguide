@@ -1,4 +1,4 @@
-1547841301a:1:{s:13:"quran_css.htm";a:6:{s:8:"fileName";s:13:"quran_css.htm";s:7:"content";s:979:"==
+1548334070a:1:{s:13:"quran_css.htm";a:6:{s:8:"fileName";s:13:"quran_css.htm";s:7:"content";s:979:"==
 <link href="{{ 'assets/css/bootstrap.min.css' |theme }}" rel="stylesheet">
 <link href="{{ 'assets/css/materialdesignicons.min.css' |theme }}" rel="stylesheet">
 <link href="{{ 'assets/css/ripples.min.css' |theme }}" rel="stylesheet">

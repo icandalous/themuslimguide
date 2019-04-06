@@ -1,0 +1,81 @@
+{% if parentNode and parentNode.getChildCount %}
+
+<nav class="navbar navbar-expand-lg fixed-top scrolling-navbar nav-bg">
+        <div class="container">
+         <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="mdi mdi-menu"></span>
+              <span class="mdi mdi-menu"></span>
+              <span class="mdi mdi-menu"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt=""></a>
+          </div>
+          <div class="collapse navbar-collapse" id="main-navbar">
+			<ul class="{{ primaryClasses }}">
+				{% for primaryNav in parentNode.getChildren %}
+					{% if primaryNav.enabled %}
+						{% if primaryNav.getChildCount and numberOfLevels > 1 %}
+							<li class="dropdown {{ listItemClasses }} {{ primaryNav.getListItemClasses(activeLeft, activeRight) }}">
+								<a href="{{ primaryNav.getLinkHref }}" target="{{ primaryNav.getLinkTarget }}" class="nav-link dropdown-toggle" data-toggle="dropdown">
+									{{ primaryNav.title }} <span class="caret"></span>
+								</a>
+						{% else %}
+							<li class="{{ listItemClasses }} {{ primaryNav.getListItemClasses(activeLeft, activeRight) }}">
+								<a href="{{ primaryNav.getLinkHref }}" target="{{ primaryNav.getLinkTarget }}" class="nav-link">
+									{{ primaryNav.title }}
+								</a>
+						{% endif %}
+						{% if primaryNav.getChildCount and numberOfLevels > 1 %}
+							<ul class="{{ secondaryClasses }}">
+								{% for secondaryNav in primaryNav.getChildren %}
+									{% if secondaryNav.enabled %}
+										<li class="{{ listItemClasses }} {{ secondaryNav.getListItemClasses(activeLeft, activeRight) }}">
+											<a href="{{ secondaryNav.getLinkHref }}" target="{{ secondaryNav.getLinkTarget }}">
+												{{ secondaryNav.title }}
+											</a>
+											{% if secondaryNav.getChildCount and numberOfLevels > 2 %}
+												<ul class="{{ tertiaryClasses }}">
+													{% for tertiaryNav in secondaryNav.getChildren %}
+														{% if tertiaryNav.enabled %}
+															<li class="{{ listItemClasses }} {{ tertiaryNav.getListItemClasses(activeLeft, activeRight) }}">
+																<a href="{{ tertiaryNav.getLinkHref }}" target="{{ tertiaryNav.getLinkTarget }}">
+																	{{ tertiaryNav.title }}
+																</a>
+															</li>
+														{% endif %}
+													{% endfor %}
+												</ul>
+											{% endif %}
+										</li>
+									{% endif %}
+								{% endfor %}
+							</ul>
+						{% endif %}
+							</li>
+					{% endif %}
+				{% endfor %}
+			</ul>
+			{% endif %}
+			
+<!-- Search Box Start -->
+            <div class="search-icon">
+              <span class="open-search">
+                <i class="mdi mdi-magnify btn btn-common"></i>
+              </span>
+            </div>
+            <form role="search" class="navbar-form">
+              <div class="container">
+                <div class="row">
+                  <div class="form-group has-feedback">
+                    <input type="text" placeholder="Type and search ..." class="form-control">
+                    <div class="close"><i class="mdi mdi-close"></i></div>
+                  </div>
+                </div>
+              </div>
+            </form>
+            <!-- Search Box End -->
+          </div>
+        </div>
+			 </nav>

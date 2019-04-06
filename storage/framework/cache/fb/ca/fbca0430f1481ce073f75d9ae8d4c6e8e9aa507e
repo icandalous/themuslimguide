@@ -1,0 +1,60 @@
+1548333448a:1:{s:14:"coran_home.htm";a:6:{s:8:"fileName";s:14:"coran_home.htm";s:7:"content";s:704:"[localePicker]
+forceUrl = 0
+==
+<!DOCTYPE html>
+<html lang="{{ activeLocale }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+     {% partial 'quran_css' %}
+     
+     <script type="text/javascript">
+var coursApiUrl = "{{ config('app.cours_api_url')[this.environment] }}";
+</script>
+
+  </head>
+  <body>
+<header id="header">
+	{% partial 'coran_navbar' %}
+</header>
+    <!-- Header End -->
+  {% partial 'quran_home_banner' %}
+
+ <section id="page" class="">
+    {% page %}
+  </section>
+
+{% partial 'footer_quran' %}
+
+</body>
+</html>";s:5:"mtime";i:1540141684;s:6:"markup";s:670:"<!DOCTYPE html>
+<html lang="{{ activeLocale }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+     {% partial 'quran_css' %}
+     
+     <script type="text/javascript">
+var coursApiUrl = "{{ config('app.cours_api_url')[this.environment] }}";
+</script>
+
+  </head>
+  <body>
+<header id="header">
+	{% partial 'coran_navbar' %}
+</header>
+    <!-- Header End -->
+  {% partial 'quran_home_banner' %}
+
+ <section id="page" class="">
+    {% page %}
+  </section>
+
+{% partial 'footer_quran' %}
+
+</body>
+</html>";s:4:"code";N;s:12:"localePicker";a:1:{s:8:"forceUrl";s:1:"0";}}}

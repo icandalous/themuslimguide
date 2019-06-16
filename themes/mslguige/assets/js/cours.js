@@ -2,17 +2,18 @@
  * COURS API CALL
  * 
  * ****************************/
+
  var token = "";
 var params = {email:"admin@test.com", password:"test123"}
 $.ajax({
-	url: "http://localhost/cours-api/public/api/login",
+	url: coursApiUrl + "login",
 	method: "POST",
 	data:params,
 	success: function(response) {
 		token = response["data"]["api_token"];
 		console.log(token);
 		$.ajax({
-			url: coursApiUrl + "/cours/details",
+			url: coursApiUrl + "cours/details",
 			method: "GET",
 			headers: {
 				"Authorization" : "Bearer " + token

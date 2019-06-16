@@ -4,7 +4,9 @@ layout = "quran_page"
 is_hidden = 0
 ==
 <script type="text/javascript">
-var quranApiUrl = "{{ config('app.mutashab_api_url')[this.environment] }}";
+var quranApiUrl = "{{ config('app.mutashab_api_url') }}";
+console.log(this.environment);
+console.log(quranApiUrl);
 </script>
 	<div class="container">
     <br/>

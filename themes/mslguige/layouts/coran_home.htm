@@ -11,7 +11,9 @@ forceUrl = 0
      {% partial 'quran_css' %}
      
      <script type="text/javascript">
-var coursApiUrl = "{{ config('app.cours_api_url')[this.environment] }}";
+
+var coursApiUrl = "{{ config('app.cours_api_url') }}";
+
 </script>
 
   </head>

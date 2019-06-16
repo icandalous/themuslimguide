@@ -28,7 +28,7 @@ return [
 
     'hosts' => [
 
-        'localhost' => 'dev',
+        'http://themuslimguide.local' => 'dev',
 		'http://logiciel-design.com' => 'test',
 
     ],

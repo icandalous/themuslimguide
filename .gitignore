@@ -3,9 +3,10 @@
 /node_modules
 /public/hot
 /public/storage
-/storage/*.key
-/storage/cms/cache/
-/storage/cms/combiner/assets/
+# /storage/*.key
+# /storage/cms/cache/
+# /storage/cms/combiner/assets/
+/storage
 /vendor
 /.idea
 /.vagrant

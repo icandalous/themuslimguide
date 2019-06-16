@@ -122,9 +122,8 @@ trait Validation
         if ($relationType === 'attachOne' || $relationType === 'attachMany') {
             return $this->$relationName()->getValidationValue();
         }
-        else {
-            return $this->getRelationValue($relationName);
-        }
+
+        return $this->getRelationValue($relationName);
     }
 
     /**
@@ -182,13 +181,12 @@ trait Validation
          *     });
          *
          */
-        if (($this->fireModelEvent('validating') === false) || ($this->fireEvent('model.beforeValidate') === false)) {
+        if (($this->fireModelEvent('validating') === false) || ($this->fireEvent('model.beforeValidate', [], true) === false)) {
             if ($throwOnValidation) {
                 throw new ModelException($this);
             }
-            else {
-                return false;
-            }
+
+            return false;
         }
 
         if ($this->methodExists('beforeValidate')) {

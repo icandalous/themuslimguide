@@ -187,4 +187,12 @@
   'Cms\\Classes\\ThemeManager' => 'modules/cms/classes/ThemeManager.php',
   'System\\Classes\\VersionManager' => 'modules/system/classes/VersionManager.php',
   'Cms\\Twig\\PageNode' => 'modules/cms/twig/PageNode.php',
+  'Backend\\Widgets\\Table' => 'modules/backend/widgets/Table.php',
+  'Backend\\Widgets\\Table\\DataSourceBase' => 'modules/backend/widgets/table/DataSourceBase.php',
+  'Backend\\Widgets\\Table\\ServerEventDataSource' => 'modules/backend/widgets/table/ServerEventDataSource.php',
+  'Backend\\Behaviors\\ReorderController' => 'modules/backend/behaviors/ReorderController.php',
+  'System\\Models\\MailTemplate' => 'modules/system/models/MailTemplate.php',
+  'System\\Twig\\Engine' => 'modules/system/twig/Engine.php',
+  'System\\Models\\MailLayout' => 'modules/system/models/MailLayout.php',
+  'System\\Classes\\MediaLibraryItem' => 'modules/system/classes/MediaLibraryItem.php',
 );

@@ -3,11 +3,16 @@
 /node_modules
 /public/hot
 /public/storage
-# /storage/*.key
-# /storage/cms/cache/
-# /storage/cms/combiner/assets/
-/storage
-/vendor
+/storage/*.key
+/storage/cms/cache/
+/storage/cms/combiner/assets/
+/storage/framework/cache/**
+/storage/framework/sessions/**
+/storage/logs
+/storage/temp
+/storage/cms
+
+#/vendor
 /.idea
 /.vagrant
 Homestead.json

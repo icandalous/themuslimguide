@@ -1,0 +1,6 @@
+plugin:
+    name: 'icandalous.cours::lang.plugin.name'
+    description: 'icandalous.cours::lang.plugin.description'
+    author: icandalous
+    icon: oc-icon-book
+    homepage: ''

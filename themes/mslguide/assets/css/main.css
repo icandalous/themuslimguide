@@ -892,37 +892,7 @@ xcustom form elements
   }
 }
 
-/***********************************************************************************
-				ajout
-*************************************************************************************/
-#search-text {
-	width: 700px;
-}
 
-.sourate{
-    border-bottom: 9px solid #FB8C00;
-}
-
-.zone-ayat{
-    background: url(../images/sm_5aa55042cd45b.png) no-repeat;
-    background-position: -6px -57px;
-    /* height: 500px; */
-    /* background-position: 1px 23px, center; */
-    background-size: 500px 377px;
-}
-
-.zone-ayat a{
-    background: transparent;
-    width: 65%;
-    margin: auto;
-    height: 120px;
-    padding: 35px;
-    border: none;
-}
-
-.zone-ayat a:hover{
-    background:transparent;
-}
 
 .cours-body{
     height:167px;
@@ -930,7 +900,7 @@ xcustom form elements
 }
 
 /*********************************************
-miaracles dans le coran
+miracles dans le coran
 *********************************************/
 .representation-content {
   margin-top:20px;
@@ -1077,4 +1047,9 @@ side bar miracles coran
   left: 0;
   bottom: 0;
   background-image: linear-gradient(to right, #CF5309, #F4C344);
+}
+
+#loader-cours .spinner-border{
+    border: .25em solid #fff;
+    border-right-color: transparent;
 }

@@ -602,7 +602,7 @@ xcustom form elements
 #search-text {
 	width: 700px;
 }
-/*input-group-btn{
+.input-group-btn{
 	width: 10%;
 }   
 #search-text{
@@ -610,16 +610,62 @@ xcustom form elements
     padding: 16px;
 }
 
-#btn-search-ayats{
+#btn-search-ayats, #btn-search-ayats:hover{
     width: 115px;
+    background-color:#FB8C00;
+    border-color:#FB8C00;
 }
 
 #btn-search-ayats .label-icon{
         font-size: 18px;
-}*/
-
-#list-mutashabihates .zone-ayat{
-    background: url(../images/quran/cadre_01.jpg);
-    background-size: 423px 251px;
-    height: 252px;
 }
+#list-mutashabihates .row{
+    margin-right: 0px;
+    margin-left: 0px; 
+}
+
+#list-mutashabihates .quran-border-left{
+   background: url(../images/sm_5aa55042cd45b.png) no-repeat;
+    background-position: calc(100% - -260px) -52px;
+       background-size: calc(100% - -264px) 363px;
+}
+
+#list-mutashabihates .quran-border-right{
+    background: url(../images/sm_5aa55042cd45b.png) no-repeat;
+    background-position: calc(100% - -6px) -52px;
+    background-size: 400px 363px;
+}
+
+#list-mutashabihates .cadre{
+    padding: 4px;
+    margin: 10px auto;
+    text-align: center;
+    border: 20px solid black;
+    background-clip: padding-box;
+    border-image-source: url(http://clipartmag.com/images/border-png-40.png);
+    border-image-slice: 545;
+    border-image-repeat: round;
+}
+
+#search-text {
+	width: 700px;
+}
+
+.sourate{
+    border-bottom: 9px solid #FB8C00;
+    padding: 0px 10px;
+}
+
+.zone-ayat a{
+    margin: auto;
+    min-height: 160px;
+    border: none;
+    line-height:30px;
+    font-size: 21px;
+}
+
+#list-mutashabihates .list-group-item{
+    border:none !important;
+}
+
+

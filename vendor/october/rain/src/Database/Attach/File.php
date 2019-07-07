@@ -1,5 +1,6 @@
 <?php namespace October\Rain\Database\Attach;
 
+use Cache;
 use Storage;
 use File as FileHelper;
 use October\Rain\Network\Http;
@@ -67,7 +68,8 @@ class File extends Model
         'jpg'  => 'image/jpeg',
         'jpeg' => 'image/jpeg',
         'webp' => 'image/webp',
-        'pdf'  => 'application/pdf'
+        'pdf'  => 'application/pdf',
+        'svg'  => 'image/svg+xml',
     ];
 
     //
@@ -304,6 +306,21 @@ class File extends Model
     //
     // Getters
     //
+
+    /**
+     * Returns the cache key used for the hasFile method
+     *
+     * @param string $path The path to get the cache key for
+     * @return string
+     */
+    public function getCacheKey($path = null)
+    {
+        if (empty($path)) {
+            $path = $this->getStorageDirectory() . $this->getPartitionDirectory() . $this>getFilename();
+        }
+
+        return 'file_exists::' . $path;
+    }
 
     /**
      * Returns the file name without path
@@ -758,6 +775,7 @@ class File extends Model
             $this->storageCmd('delete', $filePath);
         }
 
+        Cache::forget($this->getCacheKey($filePath));
         $this->deleteEmptyDirectory($directory);
     }
 
@@ -768,7 +786,17 @@ class File extends Model
     protected function hasFile($fileName = null)
     {
         $filePath = $this->getStorageDirectory() . $this->getPartitionDirectory() . $fileName;
-        return $this->storageCmd('exists', $filePath);
+
+        $result = Cache::rememberForever($this->getCacheKey($filePath), function () use ($filePath) {
+            return $this->storageCmd('exists', $filePath);
+        });
+
+        // Forget negative results
+        if (!$result) {
+            Cache::forget($this->getCacheKey($filePath));
+        }
+
+        return $result;
     }
 
     /**

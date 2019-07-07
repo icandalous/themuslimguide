@@ -4,20 +4,15 @@
  * ****************************/
 
  var token = "";
-var params = {email:"admin@test.com", password:"test123"}
 $.ajax({
-	url: coursApiUrl + "login",
-	method: "POST",
-	data:params,
+	url: "/quran/cours/login",
+	method: "GET",
 	success: function(response) {
 		token = response["data"]["api_token"];
 		console.log(token);
 		$.ajax({
-			url: coursApiUrl + "cours/details",
+			url: "quran/cours/courant/"+token,
 			method: "GET",
-			headers: {
-				"Authorization" : "Bearer " + token
-			},
 			success: function(response) {
 				console.log(response);
 				loadCours(response);
@@ -45,7 +40,8 @@ function loadCours(data){
   +'</div>'
 +'</div>'
    }
-   console.log(html);
+   //console.log(html);
+   $("#loader-cours").hide();
    $('#team-carousel').html(html);
    	// Image Carousel
 	$("#team-carousel").owlCarousel({

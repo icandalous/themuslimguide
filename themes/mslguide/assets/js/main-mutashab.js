@@ -328,11 +328,13 @@ function addItem(item){
       '<h5 class="mb-1">Sourate : '+surateName+'</h5>'+
       '<small>verset : '+item['ayat_num']+'</small>'+
     '</div>'+
-	'<div class="zone-ayat"><a href="#" class="list-group-item list-group-item-action flex-column align-items-start">'+
-    
-    '<p class="mb-1">ُ'+item['content_ar']+'</p>'+
-    '<small></small>'+
-  '</a></div>'+
+    '<div class="row cadre">'+
+    	'<div class="col-md-12 zone-ayat"><a href="#" class="list-group-item list-group-item-action flex-column align-items-start">'+
+        
+        '<p class="mb-1">ُ'+item['content_ar']+'</p>'+
+        '<small></small>'+
+      '</a></div>'+
+  
   '</li>';
   
   return html;

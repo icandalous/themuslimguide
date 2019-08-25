@@ -1,3 +1,2 @@
 #!/usr/bin/env bash
-
-mysql --user=homestead --password=secret themslguidedb < ../db/themslguidedb.sql
+mysqldump --user=homestead --password=secret themslguidedb > "../db/themslguidedb.sql"

@@ -273,4 +273,6 @@
   'Icandalous\\Cours\\Controllers\\CoursController' => 'plugins/icandalous/cours/controllers/CoursController.php',
   'RainLab\\Builder\\Components\\RecordList' => 'plugins/rainlab/builder/components/RecordList.php',
   'RainLab\\Builder\\Components\\RecordDetails' => 'plugins/rainlab/builder/components/RecordDetails.php',
+  'Cms\\Twig\\ContentNode' => 'modules/cms/twig/ContentNode.php',
+  'System\\Helpers\\View' => 'modules/system/helpers/View.php',
 );

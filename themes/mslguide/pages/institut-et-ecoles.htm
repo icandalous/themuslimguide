@@ -1,0 +1,76 @@
+title = "Institut et écoles"
+url = "/coran/institut-et-ecoles"
+layout = "quran_page"
+is_hidden = 0
+==
+<!-- Tabs Section start 3 -->
+<section class="Material-tabs-section section-padding">
+  <div class="container-instituts-tab">
+    <div class="row">
+      <!-- Section Titile -->
+      <div class="col-md-12 Material-title-section wow animated fadeInLeft" data-wow-delay=".2s">
+        <h1 class="section-title" id="institut-title">Institut Andalous</h1>
+      </div>
+    </div>
+    <div class="Material-tab-default tabs-style-2">
+      <div class="row">
+        <div class="col-lg-3 col-xs-12">
+          <div class="nav flex-column nav-pills nav-vertical" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <a class="nav-link active show" id="v-pills-andalous-tab" data-toggle="pill" href="#andalous" role="tab" aria-controls="v-pills-andalous" aria-selected="false" data-title="Al-Andalous">Al-Andalous</a>
+            <a class="nav-link" id="v-pills-icq-tab" data-toggle="pill" href="#icq" role="tab" aria-controls="v-pills-icq" aria-selected="false" data-title="ICQ">ICQ</a>
+            <a class="nav-link" id="v-pills-madani-tab" data-toggle="pill" href="#madani" role="tab" aria-controls="v-pills-madani" aria-selected="true" data-title="Madani">Madani</a>
+          </div>
+        </div>
+        <div class="col-lg-9 col-xs-12">
+          <!-- Tab panes -->
+          <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="andalous" role="tabpanel">
+              <div class="row">
+                <div class="col-md-4">
+                    <img src="{{'masdjid_715118.jpg'|media}}" alt="">
+                </div>
+                <div class="col-md-8">
+                    <h2 class="subtitle">Institut Andalous</h2>
+                    <p>
+                        {% content "andalous-inst-overview.htm" %}
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="icq" role="tabpanel" >
+              <div class="row">
+                <div class="col-md-4">
+                    <img src="{{'mosque_night_backgrounds_vector_522137.jpg'|media}}" alt="">
+                </div>
+                <div class="col-md-8">
+                    <h2 class="subtitle">École coranique ICQ</h2>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nesciunt dolores quibusdam, officia sed mollitia, illo, quis, vel veniam officiis qui repellendus. Perferendis et, veritatis enim voluptatem libero consequuntur eveniet alias nesciunt fugit doloremque tempora id, impedit sed earum voluptatum itaque at. Expedita impedit facere magnam commodi sed dolorem adipisci.
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div  class="tab-pane fade" id="madani" role="tabpanel">
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="{{'mosque-background-vector-free-download-5.jpg'|media}}" alt="">
+                </div>
+                <div class="col-md-8">
+                    <h2 class="subtitle">École coranique Madani</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nesciunt dolores quibusdam, officia sed mollitia, illo, quis, vel veniam officiis qui repellendus. Perferendis et, veritatis enim voluptatem libero consequuntur eveniet alias nesciunt fugit doloremque tempora id, impedit sed earum voluptatum itaque at. Expedita impedit facere magnam commodi sed dolorem adipisci.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Tabs Section End 3 -->
+    <script>
+        $( "#v-pills-tab a.nav-link" ).on( "click", function() {
+          $('#institut-title').text($(this).data('title'));  
+          console.log($(this).data('title'));
+        });
+    </script>

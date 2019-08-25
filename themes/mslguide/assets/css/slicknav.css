@@ -15,7 +15,7 @@
   width: 44px;
 }
   .slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {
-    margin-top: 0.188em; }
+  margin-top: 0.188em; }
 
 .slicknav_menu {
   *zoom: 1; }
@@ -109,7 +109,6 @@
   list-style: outside none none;
   margin: 0;
   max-height: 350px;
-  overflow-y: scroll;
   padding: 0;
   width: 100%;
 }

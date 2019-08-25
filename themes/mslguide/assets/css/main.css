@@ -914,12 +914,13 @@ miracles dans le coran
   transition: all 0.3s ease;
   width: 100%;
 }
-figure {
+.representation-content figure {
   height: 370px;
   overflow: hidden;
   position: relative;
+  margin: 0 0 1rem;
 }
-figure a {
+.representation-contentfigure a {
   height: 100%;
   left: 0;
   position: absolute;
@@ -927,11 +928,11 @@ figure a {
   width: 100%;
   z-index: 3;
 }
-figure:hover .media {
+.representation-content figure:hover .media {
   -webkit-transform: scale(1.25);
           transform: scale(1.25);
 }
-figcaption {
+.representation-content figcaption {
   color: #252830;
   height: calc(100% - 30px);
   margin: 15px;
@@ -939,55 +940,59 @@ figcaption {
   position: absolute;
   top: 0;
   width: 250px;
+  background: transparent;
+    bottom: 0px;
+    padding: 0px;
+    opacity: 1;
 }
-.body {
+.representation-content .body {
   background-color: white;
   bottom: 0;
   padding: 15px;
   position: absolute;
   width: 100%;
 }
-svg {
+.representation-content svg {
   height: inherit;
   width: 100%;
 }
-svg text {
+.representation-content svg text {
   text-anchor: middle;
 }
-svg .alpha {
+.representation-content svg .alpha {
   fill: white;
 }
-svg .title {
+.representation-content svg .title {
   font-size: 28px;
   font-family: "Montserrat";
   letter-spacing: 5px;
 }
-svg #base {
+.representation-content svg #base {
   fill: white;
   -webkit-mask: url(#mask);
   mask: url(#mask);
 }
-svg #base1 {
+.representation-content svg #base1 {
   fill: white;
   -webkit-mask: url(#mask1);
   mask: url(#mask1);
 }
-svg #base2 {
+.representation-content svg #base2 {
   fill: white;
   -webkit-mask: url(#mask2);
   mask: url(#mask2);
 }
-svg #base3 {
+.representation-content svg #base3 {
   fill: white;
   -webkit-mask: url(#mask3);
   mask: url(#mask3);
 }
-svg #base4 {
+.representation-content svg #base4 {
   fill: white;
   -webkit-mask: url(#mask4);
   mask: url(#mask4);
 }
-svg #base5 {
+.representation-content svg #base5 {
   fill: white;
   -webkit-mask: url(#mask5);
   mask: url(#mask5);
@@ -995,7 +1000,7 @@ svg #base5 {
 /*****************************
 side bar miracles coran
 ****************************/
-.sidebar {
+.representation-content .sidebar {
   /*position: fixed;
   width: 25%;*/
   height: 100vh;
@@ -1003,7 +1008,7 @@ side bar miracles coran
   font-size: 0.65em;
 }
 
-.nav {
+.representation-content .nav {
   position: relative;
   margin: 0 15%;
   text-align: right;
@@ -1013,14 +1018,14 @@ side bar miracles coran
   font-weight: bold;
 }
 
-.nav ul {
+.representation-content .nav ul {
   list-style: none;
 }
-.nav ul li {
+.representation-content .nav ul li {
   position: relative;
   margin: 3.2em 0;
 }
-.nav ul li a {
+.representation-content .nav ul li a {
   line-height: 5em;
   text-transform: uppercase;
   text-decoration: none;
@@ -1029,16 +1034,16 @@ side bar miracles coran
   display: block;
   transition: all ease-out 300ms;
 }
-.nav ul li.active a {
+.representation-content .nav ul li.active a {
   color: white;
 }
-.nav ul li:not(.active)::after {
+.representation-content .nav ul li:not(.active)::after {
   opacity: 0.2;
 }
-.nav ul li:not(.active):hover a {
+.representation-content .nav ul li:not(.active):hover a {
   color: rgba(255, 255, 255, 0.75);
 }
-.nav ul li::after {
+.representation-content .nav ul li::after {
   content: '';
   position: absolute;
   width: 100%;
@@ -1052,4 +1057,539 @@ side bar miracles coran
 #loader-cours .spinner-border{
     border: .25em solid #fff;
     border-right-color: transparent;
+}
+
+.box{
+    padding:60px 0px;
+}
+
+.box-part{
+    background:#FFF;
+    border-radius:10px;
+    padding:60px 10px;
+    margin:30px 0px;
+}
+
+.box-part:hover{
+    background:#4183D7;
+}
+
+.box-part:hover .fa , 
+.box-part:hover .title , 
+.box-part:hover .text ,
+.box-part:hover a{
+    color:#FFF;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+
+.text{
+    margin:20px 0px;
+}
+
+.fa{
+     color:#4183D7;
+}
+
+
+.strategie-memo-cards .wrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+
+.strategie-memo-cards .box {
+	margin: 10px;
+	width: 300px;
+	height: 490px;
+	text-align: center;
+	border-radius: 3px;
+	-webkit-transition: 200ms ease-in-out;
+	-o-transition: 200ms ease-in-out;
+	transition: 200ms ease-in-out;
+	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	        box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+.box:hover {
+	margin-bottom: -10px;
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.7);
+	        box-shadow: 0 0 5px rgba(0,0,0,0.7);
+}
+.strategie-memo-cards .box h1 {
+	color: #fff;
+	padding: 30px;
+	margin-top: 100px;
+	text-align: center;
+	font-weight: 100;
+	font-size: 25px;
+	background: rgba(0,0,0,0.8);
+	-webkit-box-shadow: 0 0 30px rgba(0,0,0,0.7);
+	        box-shadow: 0 0 30px rgba(0,0,0,0.8);
+}
+
+.strategie-memo-cards .date h4 {
+	color: #fff;
+	font-weight: 300;
+	text-align: center;
+	letter-spacing: 3px;
+	text-shadow: 0 0 3px rgba(0,0,0,0.9);
+}
+.strategie-memo-cards .poster {
+	width: 130px;
+	height:130px;
+	margin: 120px auto;
+	position: relative;
+	border-radius: 100px;
+}
+.strategie-memo-cards .poster h4 {
+	top: 16px;
+	color: #fff;
+	position: relative;
+	font-size: 80px;
+	text-align: center;
+	font-weight: 100;
+}
+.strategie-memo-cards .one {
+	background: url('https://source.unsplash.com/900x920');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.strategie-memo-cards .two {
+	background: url('https://source.unsplash.com/820x900');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.strategie-memo-cards .three {
+	background: url('https://source.unsplash.com/500x500');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.strategie-memo-cards .five {
+	background: url('https://source.unsplash.com/550x520');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.strategie-memo-cards .six {
+	background: url('https://source.unsplash.com/660x630');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.strategie-memo-cards .seven {
+	background: url('https://source.unsplash.com/700x770');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.strategie-memo-cards .eight {
+	background: url('https://source.unsplash.com/880x820');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.strategie-memo-cards .nine {
+	background: url('https://source.unsplash.com/898x820');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.strategie-memo-cards .ten {
+	background: url('https://source.unsplash.com/8998x920');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.strategie-memo-cards .eleven {
+	background: url('https://source.unsplash.com/898x960');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.strategie-memo-cards .tlv {
+	background: url('https://source.unsplash.com/999x888');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.strategie-memo-cards .thirteen {
+	background: url('https://source.unsplash.com/1000x777');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.strategie-memo-cards .ftn {
+	background: url('https://source.unsplash.com/2000x777');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.strategie-memo-cards .fith {
+	background: url('https://source.unsplash.com/2000x1000');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.strategie-memo-cards .sith {
+	background: url('https://source.unsplash.com/3000x1000');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.strategie-memo-cards .sevth {
+	background: url('https://source.unsplash.com/9000x9000');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* POSTER*/
+.strategie-memo-cards .p1 {
+	background: #2b5876;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(#4e4376), to(#2b5876));
+	background: -webkit-linear-gradient(left, #4e4376, #2b5876);
+	background: -o-linear-gradient(left, #4e4376, #2b5876);
+	background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 0 0 20px darkblue;
+	        box-shadow: 0 0 20px darkblue;
+}
+
+.strategie-memo-cards .p2 {
+	background: #f857a6;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #ff5858, #f857a6);  /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(#ff5858), to(#f857a6));
+	background: -webkit-linear-gradient(left, #ff5858, #f857a6);
+	background: -o-linear-gradient(left, #ff5858, #f857a6);
+	background: linear-gradient(to right, #ff5858, #f857a6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 0 0 20px #fa3380;
+	        box-shadow: 0 0 20px #fa3380;
+}
+
+.strategie-memo-cards .p3 {
+	background: #4776E6;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);  /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(#8E54E9), to(#4776E6));
+	background: -webkit-linear-gradient(left, #8E54E9, #4776E6);
+	background: -o-linear-gradient(left, #8E54E9, #4776E6);
+	background: linear-gradient(to right, #8E54E9, #4776E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 0 0 20px lightblue;
+	        box-shadow: 0 0 20px lightblue;
+}
+
+.strategie-memo-cards .p4 {
+	background: #1FA2FF;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(#A6FFCB), color-stop(#12D8FA), to(#1FA2FF));
+	background: -webkit-linear-gradient(left, #A6FFCB, #12D8FA, #1FA2FF);
+	background: -o-linear-gradient(left, #A6FFCB, #12D8FA, #1FA2FF);
+	background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 0 0 20px skyblue;
+	        box-shadow: 0 0 20px skyblue;
+}
+
+
+.strategie-memo-cards .p5 {
+	background: #AA076B;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #61045F, #AA076B);  /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(#61045F), to(#AA076B));
+	background: -webkit-linear-gradient(left, #61045F, #AA076B);
+	background: -o-linear-gradient(left, #61045F, #AA076B);
+	background: linear-gradient(to right, #61045F, #AA076B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 0 0 20px purple;
+	        box-shadow: 0 0 20px purple;
+}
+
+.strategie-memo-cards .p6 {
+	background: #DA22FF;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(#9733EE), to(#DA22FF));
+	background: -webkit-linear-gradient(left, #9733EE, #DA22FF);
+	background: -o-linear-gradient(left, #9733EE, #DA22FF);
+	background: linear-gradient(to right, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 0 0 20px violet;
+	        box-shadow: 0 0 20px violet;
+}
+
+.strategie-memo-cards .p7 {
+	background: #02AAB0;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #00CDAC, #02AAB0);  /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(#00CDAC), to(#02AAB0));
+	background: -webkit-linear-gradient(left, #00CDAC, #02AAB0);
+	background: -o-linear-gradient(left, #00CDAC, #02AAB0);
+	background: linear-gradient(to right, #00CDAC, #02AAB0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 0 0 20px lightgreen;
+	        box-shadow: 0 0 20px lightgreen;
+}
+.strategie-memo-cards .p8 {
+	background: #5433FF;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(#A5FECB), color-stop(#20BDFF), to(#5433FF));
+	background: -webkit-linear-gradient(left, #A5FECB, #20BDFF, #5433FF);
+	background: -o-linear-gradient(left, #A5FECB, #20BDFF, #5433FF);
+	background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 0 0 20px lightblue;
+	        box-shadow: 0 0 20px lightblue;
+}
+.strategie-memo-cards .p9 {
+	background: #2b5876;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #fa3, #fa3380);  /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(#fa3), to(#fa3380));
+	background: -webkit-linear-gradient(left, #fa3, #fa3380);
+	background: -o-linear-gradient(left, #fa3, #fa3380);
+	background: linear-gradient(to right, #fa3, #fa3380); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 0 0 20px #fa3380;
+	        box-shadow: 0 0 20px #fa3380;
+}
+
+.strategie-memo-cards .p10 {
+	background: #2b5876;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, deepskyblue, lightblue);  /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(deepskyblue), to(lightblue));
+	background: -webkit-linear-gradient(left, deepskyblue, lightblue);
+	background: -o-linear-gradient(left, deepskyblue, lightblue);
+	background: linear-gradient(to right, deepskyblue, lightblue); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 0 0 20px darkblue;
+	        box-shadow: 0 0 20px darkblue;
+}
+
+.strategie-memo-cards .p11 {
+	background: #F2994A;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(#F2C94C), to(#F2994A));
+	background: -webkit-linear-gradient(left, #F2C94C, #F2994A);
+	background: -o-linear-gradient(left, #F2C94C, #F2994A);
+	background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 0 0 20px lightyellow;
+	        box-shadow: 0 0 20px lightyellow;
+}
+
+.strategie-memo-cards .p12 {
+	background: #A770EF;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(#FDB99B), color-stop(#CF8BF3), to(#A770EF));
+	background: -webkit-linear-gradient(left, #FDB99B, #CF8BF3, #A770EF);
+	background: -o-linear-gradient(left, #FDB99B, #CF8BF3, #A770EF);
+	background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 0 0 20px purple;
+	        box-shadow: 0 0 20px purple;
+}
+
+.strategie-memo-cards .p13 {
+	background: #f4c4f3;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #fc67fa, #f4c4f3);  /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(#fc67fa), to(#f4c4f3));
+	background: -webkit-linear-gradient(left, #fc67fa, #f4c4f3);
+	background: -o-linear-gradient(left, #fc67fa, #f4c4f3);
+	background: linear-gradient(to right, #fc67fa, #f4c4f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 0 0 20px pink;
+	        box-shadow: 0 0 20px pink;
+}
+.strategie-memo-cards .p14 {
+	background: #00c3ff;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(#ffff1c), to(#00c3ff));
+	background: -webkit-linear-gradient(left, #ffff1c, #00c3ff);
+	background: -o-linear-gradient(left, #ffff1c, #00c3ff);
+	background: linear-gradient(to right, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 0 0 20px olive;
+	        box-shadow: 0 0 20px olive;
+}
+.strategie-memo-cards .p15 {
+	background: #5614B0;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #DBD65C, #5614B0);  /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(#DBD65C), to(#5614B0));
+	background: -webkit-linear-gradient(left, #DBD65C, #5614B0);
+	background: -o-linear-gradient(left, #DBD65C, #5614B0);
+	background: linear-gradient(to right, #DBD65C, #5614B0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 0 0 20px olive;
+	        box-shadow: 0 0 20px olive;
+}
+
+.strategie-memo-cards .p16 {
+	background: #fc00ff;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(#00dbde), to(#fc00ff));
+	background: -webkit-linear-gradient(left, #00dbde, #fc00ff);
+	background: -o-linear-gradient(left, #00dbde, #fc00ff);
+	background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-shadow: 0 0 20px olive;
+	        box-shadow: 0 0 20px olive;
+}
+
+/*******************************************************************************************************************************************************************/
+/*    INSTITUTS
+/********************************************************************************************************************************************************************/
+.instituts-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.instituts-list .card {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.instituts-list .card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.instituts-list .card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.instituts-list .card .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+}
+
+.instituts-list .card:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+    -5px -5px 30px 15px rgba(0,0,0,0.22);
+}
+
+.instituts-list .title-white {
+  color: white;
+}
+
+.instituts-list .title-black {
+  color: black;
+}
+
+@media all and (max-width: 500px) {
+  .instituts-list .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+
+.container-instituts-tab{
+    margin: 10px 70px;
+}
+
+
+/**************************************************************************************************************************************************************************
+    STRATEGIE DE MEMORISATION
+***************************************************************************************************************************************************************************/
+.str-memo .features-block {
+    margin-bottom: 40px;
+    background: #ffffff;
+    -webkit-box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    min-height: 205px;
+    border-radius: 5px;
+}
+.str-memo .features-block .features-btn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+.str-memo .features-block .features-content {
+    font-size: 14px;
+    line-height: 20px;
+    color: #696969;
+    padding: 24px 0 0 0;
+    text-align: left;
+}
+.str-memo {
+    margin-top: 50px;
+}
+section.main-str-memo {
+    padding-top: 20px;
+    padding-bottom: 140px;
+}
+section.main-str-memo .title-section {
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #000;
+}
+
+
+/**************************************************************************************************************************************************************************
+    VIDEOS
+***************************************************************************************************************************************************************************/
+.yb-videos .features-block {
+    margin-bottom: 40px;
+    background: #ffffff;
+    -webkit-box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    min-height: 205px;
+    border-radius: 5px;
+}
+.yb-videos .features-block .features-btn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+.yb-videos .features-block .features-content {
+    font-size: 14px;
+    line-height: 20px;
+    color: #696969;
+    padding: 24px 0 0 0;
+    text-align: left;
+}
+.yb-videos {
+    margin-top: 50px;
+}
+section.main-yb-videos {
+    padding-top: 20px;
+    padding-bottom: 140px;
+}
+section.main-yb-videos .title-section {
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #000;
 }

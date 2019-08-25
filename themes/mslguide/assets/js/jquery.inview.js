@@ -14,8 +14,7 @@
       // Browser globals
     factory(jQuery);
   }
-}
-(function ($) {
+}(function ($) {
   var inviewObjects = {}, viewportSize, viewportOffset,
       d = document, w = window, documentElement = d.documentElement, expando = $.expando, timer;
 

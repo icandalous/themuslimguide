@@ -2402,13 +2402,6 @@ legend {
     float: right
 }
 
-
-
-@media (max-width:767px) {
-
-
-
-
 .alert {
     border: 0;
     border-radius: 0
@@ -2560,32 +2553,10 @@ legend {
 .text-info {
     color: #03a9f4
 }
-
-.nav-tabs>li>a {
-    color: #FFF;
-    border: 0;
-    margin: 0
-}
-
 .nav-tabs>li>a:hover {
     background-color: transparent;
     border: 0
 }
-
-.nav-tabs>li>a,
-.nav-tabs>li>a:focus,
-.nav-tabs>li>a:hover {
-    background-color: transparent!important;
-    border: 0!important;
-    color: #333!important;
-    font-weight: 500
-}
-
-.nav-tabs>li.disabled>a,
-.nav-tabs>li.disabled>a:hover {
-    color: rgba(255, 255, 255, .5)
-}
-
 .popover,
 .tooltip-inner {
     color: #ececec;

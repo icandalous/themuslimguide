@@ -1,0 +1,133 @@
+/****************************************************************************************************************************************
+HOME
+
+*****************************************************************************************************************************************/
+
+.home-page-content .colour-block {
+  background:#823A9C;
+  /*width:60%;*/
+  padding:7% 20% 10% 20%;
+  color:#fff;
+}
+
+.home-page-content .colour-quran {
+  background:#E67E22;
+  /*width:60%;*/
+  padding:7% 20% 10% 20%;
+  color:#fff;
+}
+
+.home-page-content .colour-daawa {
+  background:#4CAF50;
+  /*width:60%;*/
+  padding:7% 20% 10% 20%;
+  color:#fff;
+}
+
+.home-page-content .colour-career {
+  background:#0716e8;
+  /*width:60%;*/
+  padding:7% 20% 10% 20%;
+  color:#fff;
+}
+
+.home-page-content .white-block {
+  background:#fff;
+  /*width:60%;*/
+  padding:7% 20% 10% 20%;
+  color:#823A9C;
+}
+.home-page-content h1 {
+  text-align:center;
+  font-size:80px;
+  font-family:'wire one', serif;
+  font-weight:normal;
+}
+.home-page-content p {
+  font-size:20px;
+  font-family:'Raleway', serif;
+}
+
+/*-------------------------*/
+/* SKEW COUNTER CLOCKWISE  */
+/*-------------------------*/
+.home-page-content .skew-c-top{
+  width:100%;
+  height:100px;
+  position:absolute;
+  left:0px;
+  background: linear-gradient(to left bottom, #fff 49%, #E67E22 50%);
+}
+
+
+/*------------------*/
+/*  SKEW CLOCKWISE  */
+/*------------------*/
+.home-page-content .skew-cc{
+  width:100%;
+  height:100px;
+  position:absolute;
+  left:0px;
+  background: linear-gradient(to right bottom, #E67E22 49%, #4CAF50 50%),    linear-gradient(-50deg, #ffffff 16px, #000 0);
+}
+
+
+
+/*-------------------------*/
+/* SKEW COUNTER CLOCKWISE  */
+/*-------------------------*/
+.home-page-content .skew-c-bottom{
+  width:100%;
+  height:100px;
+  position:absolute;
+  left:0px;
+  background: linear-gradient(to left bottom, #4CAF50 49%, #0716e8 50%);
+}
+ /****************************************************************************************/
+ 
+.banner_part {
+    height: 880px;
+    position: relative;
+    background-image: url(../images/arabic-vector-banner-5.png);
+    background-repeat: no-repeat;
+    background-size: 41%;
+    background-position: top right;
+}
+.banner_part .banner_text {
+    display: table;
+    width: 100%;
+    height: 880px;
+    padding-top: 40px;
+}
+.banner_part .banner_text .banner_text_iner {
+    display: table-cell;
+    vertical-align: middle;
+}
+.banner_part .banner_text h5 {
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #ff6426;
+    font-style: italic;
+    font-weight: 400;
+    font-family: lora,serif;
+    margin-bottom: 25px;
+}
+.banner_part .banner_text h1 {
+    font-size: 53px;
+    font-family: cardo,serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+    line-height: 1.273;
+}
+.banner_part .banner_text p {
+    margin-bottom: 45px;
+}
+.banner_text_iner p {
+    font-family: lora,serif;
+    line-height: 1.7;
+    font-size: 15px;
+    margin-bottom: 0;
+    color: #555;
+}
+
+

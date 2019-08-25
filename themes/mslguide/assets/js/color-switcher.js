@@ -8,9 +8,8 @@ window.console = window.console || (function(){
 
 jQuery(document).ready(function($) {
 	"use strict"
-
 	$("ul.colors .color1" ).click(function(){
-		$("#colors" ).attr("href", "assets/css/colors/indigo.css" );
+		$("#colors" ).attr("href", "assets/css/colors/blue.css" );
 		return false;
 	});	
 
@@ -30,7 +29,7 @@ jQuery(document).ready(function($) {
 	});
 
 	$("ul.colors .color5" ).click(function(){
-		$("#colors" ).attr("href", "assets/css/colors/blue.css" );
+		$("#colors" ).attr("href", "assets/css/colors/indigo.css" );
 		return false;
 	});	
 
@@ -72,7 +71,7 @@ jQuery(document).ready(function($) {
 
 
 //Inject Necessary Styles and HTML
-jQuery('head').append('<link rel="stylesheet" id="colors" href="assets/css/colors/indigo.css" type="text/css" />');
+jQuery('head').append('<link rel="stylesheet" id="colors" href="assets/css/colors/blue.css" type="text/css" />');
 jQuery('head').append('<link rel="stylesheet" href="assets/css/color-switcher.css" type="text/css" />'); 
 
 jQuery('body').append('' + 

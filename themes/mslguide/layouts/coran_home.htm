@@ -10,6 +10,11 @@ forceUrl = 0
     
      {% partial 'quran_css' %}
      
+     <script src="{{ [
+        'assets/vendor/jquery/dist/jquery.min.js',
+        'assets/js/bootstrap.min.js'
+    ]|theme }}"></script>
+     
      <script type="text/javascript">
 
 var coursApiUrl = "{{ config('app.cours_api_url') }}";
@@ -29,6 +34,10 @@ var coursApiUrl = "{{ config('app.cours_api_url') }}";
   </section>
 
 {% partial 'footer_quran' %}
+<script src="{{ [
+        'assets/js/cours.js',
+        'assets/js/main-mutashab.js'
+    ]|theme }}"></script>
 
 </body>
 </html>

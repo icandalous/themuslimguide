@@ -23,28 +23,15 @@ $.ajax({
 
 function loadCours(data){
     let DEFAUT_CAT = "GENERAL";
-    let html = "";
+    let html = new StringBuilder();
    for(let i = 0; i< data.length || i ==10; i++){
-       let categorie = data[i]['categorie'] && data[i]['categorie'][0] ? data[i]['categorie'][0]['nom'] : DEFAUT_CAT;
-       let adresse = data[i]['organisateur'] ? data[i]['organisateur']['adresse'] : "";
-       html+= '<div class="card border-success mb-3 item active" style="max-width: 18rem;">'
-       +'<div class="card-header bg-transparent border-success">'+categorie+'</div>'
-       +'<div class="card-body text-success cours-body">'
-        +'<h5 class="card-title">'+data[i]['titre']+'</h5>'
-    +'<p class="card-text">'+data[i]['description']+'</p>'
-  +'</div>'
-  +'<div class="card-footer bg-transparent border-success">'
-      +'<div>Debut : <span class="card-text"><small class="text-muted">Last updated 3 mins ago</small></span></div>'
-      +'<div>Fin : <span class="card-text"><small class="text-muted">Last updated 3 mins ago</small></span></div>'
-      +'<div>Lieu : <span class="card-text"><small class="text-muted">'+adresse+'</small></span></div>'
-  +'</div>'
-+'</div>'
+       html.append(cours_preview(data[0]));
    }
-   //console.log(html);
+   console.log(html.toString());
    $("#loader-cours").hide();
-   $('#team-carousel').html(html);
+   $('#cours-carousel').html(html.toString());
    	// Image Carousel
-	$("#team-carousel").owlCarousel({
+	$("#cours-carousel").owlCarousel({
 	  slideSpeed : 300,
 	  paginationSpeed : 400,
 	  items : 4,

@@ -1,0 +1,44 @@
+title = "cours-add"
+url = "/cours/add"
+layout = "quran_page"
+is_hidden = 0
+==
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<div class="container">
+    <div>
+        <h1 class="section-title">Ajout de nouveau cours</h1>
+    </div>
+    <form class="form-elements" role="form">
+        <div class="form-group span-left">
+            <label>Titre</label>
+            <input type="text" name="" value="" class="form-control" />
+        </div>
+    
+        <div class="form-group span-right">
+            <label>Description</label>
+            <input type="text" name="" value="" class="form-control" />
+        </div>
+        <div class="form-group span-right">
+            <label>Lien Web</label>
+            <input type="text" name="" value="" class="form-control" />
+        </div>
+    
+        <div class="form-group span-full">
+            <label>Local</label>
+            <input type="text" name="" value="" class="form-control" />
+        </div>
+        <div class="form-group span-full">
+            <label>Debut</label>
+            <input type="text" name="" value="" class="form-control datepicker" />
+        </div>
+        <div class="form-group span-full">
+            <label>Fin</label>
+            <input type="text" name="" value="" class="form-control datepicker" />
+        </div>
+    </form>
+    <script>
+  $( function() {
+    $( ".datepicker" ).datepicker();
+  } );
+  </script>
+</div>
